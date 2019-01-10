@@ -23,7 +23,7 @@
     "README.md"
   ],
   "source": {
-    "http": "https://dl.google.com/dl/cpdc/85e39daa6262cf56/FirebaseInstanceID-3.3.0.tar.gz"
+    "http": "https://dl.google.com/dl/cpdc/pod-staging/FirebaseInstanceID-3.4.0.tar.gz"
   },
   "summary": "Firebase Instance ID for iOS.",
   "vendored_frameworks": [
