@@ -36,7 +36,7 @@
     },
     {
       "dependencies": {
-        "FirebaseCore": "5.4.990"
+        "FirebaseCore": "5.4.90"
       },
       "name": "CoreOnly",
       "preserve_paths": [
