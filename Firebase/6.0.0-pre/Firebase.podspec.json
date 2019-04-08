@@ -272,7 +272,7 @@
         "Firebase/CoreOnly": [
 
         ],
-        "FirebaseInAppMessaging": "0.13.0"
+        "FirebaseInAppMessaging": "0.14.0"
       },
       "name": "InAppMessaging"
     },
