@@ -2,7 +2,7 @@
   "authors": "Google, Inc.",
   "dependencies": {
     "FirebaseCore": "~> 6.0",
-    "FirebaseInstanceID": "~> 3.8",
+    "FirebaseInstanceID": "~> 4.0",
     "GoogleAppMeasurement": "5.8.0",
     "GoogleUtilities/AppDelegateSwizzler": "~> 5.2",
     "GoogleUtilities/MethodSwizzler": "~> 5.2",
