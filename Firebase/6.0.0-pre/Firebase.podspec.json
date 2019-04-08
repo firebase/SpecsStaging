@@ -30,7 +30,7 @@
         "Firebase/CoreOnly": [
 
         ],
-        "FirebaseAnalytics": "5.8.0"
+        "FirebaseAnalytics": "6.0.0-pre"
       },
       "name": "Core"
     },
