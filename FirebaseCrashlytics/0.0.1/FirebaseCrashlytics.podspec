@@ -4,14 +4,14 @@ Pod::Spec.new do |s|
   s.summary          = 'Best and lightest-weight crash reporting for mobile, desktop and tvOS.'
 
   s.description      = <<-DESC
-Best and lightest-weight crash reporting for mobile, desktop and tvOS TBD-longer.
+Firebase Crashlytics helps you track, prioritize, and fix stability issues that erode app quality, in realtime. Spend less time triaging and troubleshooting crashes and more time building app features that delight users.
                        DESC
 
   s.homepage         = 'https://developers.google.com/'
   s.license          = { :type => 'Apache', :file => 'LICENSE' }
   s.authors          = 'Google, Inc.'
   s.source           = {
-    :git => 'https://github.com/firebase/firebase-ios-sdk.git',
+    :git => 'https://github.com/FirebasePrivate/firebase-ios-sdk.git',
     :tag => 'Crashlytics-' + s.version.to_s
   }
 
