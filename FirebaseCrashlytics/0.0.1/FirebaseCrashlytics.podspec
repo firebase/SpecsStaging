@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'Best and lightest-weight crash reporting for mobile, desktop and tvOS.'
 
   s.description      = <<-DESC
-Firebase Crashlytics helps you track, prioritize, and fix stability issues that erode app quality, in realtime. Spend less time triaging and troubleshooting crashes and more time building app features that delight users.
+Firebase Crashlytics helps you track, prioritize, and fix stability issues that erode app quality.
                        DESC
 
   s.homepage         = 'https://developers.google.com/'
