@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FirebaseInAppMessagingDisplay'
   s.version          = '0.14.1-pre'
-  s.summary          = 'Firebase In-App Messaging UI for iOS'
+  s.summary          = 'Firebase In-App Messaging UI for iOS '
 
   s.description      = <<-DESC
 FirebaseInAppMessagingDisplay is the default client UI implementation for
