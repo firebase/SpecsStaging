@@ -39,12 +39,12 @@ several extern variables are expected to be implemented.
       # The nanopb pod sets these defs, so we must too. (We *do* require 16bit
       # (or larger) fields, so we'd have to set at least PB_FIELD_16BIT
       # anyways.)
-      'PB_FIELD_32BIT=1 PB_NO_PACKED_STRUCTS=1 PB_ENABLE_MALLOC=1 FIRCoreDiagnostics_VERSION=' + s.version.to_s,
+      'PB_FIELD_32BIT=1 PB_NO_PACKED_STRUCTS=1 PB_ENABLE_MALLOC=1',
   }.merge(header_search_paths)
 
   s.source_files = 'Firebase/CoreDiagnostics/FIRCDLibrary/**/*.[cmh]'
   s.framework = 'Foundation'
-  
+
   s.dependency 'FirebaseCoreDiagnosticsInterop', '~> 0.1'
   s.dependency 'GoogleDataTransportCCTSupport', '~> 0.1'
   s.dependency 'GoogleUtilities/Environment', '~> 6.0'
