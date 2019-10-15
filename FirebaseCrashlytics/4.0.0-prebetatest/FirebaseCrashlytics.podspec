@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   ]
 
   s.dependency 'FirebaseCore', '~> 6.0'
-  s.dependency 'FirebaseInstanceID', '~> 4.1'
+  s.dependency 'FirebaseInstanceID' #, '~> 4.1'
   s.dependency 'FirebaseAnalyticsInterop', '~> 1.2'
   s.dependency 'GoogleUtilities/UserDefaults', '~> 6.1'
   s.dependency 'PromisesObjC', '~> 1.2'
