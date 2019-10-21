@@ -14,7 +14,7 @@ other Google CocoaPods. They're not intended for direct public usage.
 
   s.source           = {
     :git => 'https://github.com/firebase/firebase-ios-sdk.git',
-    :tag => 'Utilities-' + s.version.to_s
+    :tag => 'Utilities-' + '6.3.1'
   }
 
   s.ios.deployment_target = '8.0'
