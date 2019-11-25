@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     'Crashlytics/third_party/**/*.{c,h,m,mm}'
 
   s.public_header_files = [
-    'Crashlytics/Crashlytics/Public/FIRCrashlytics.h'
+    'Crashlytics/Crashlytics/Public/*.h'
   ]
 
   s.preserve_paths = [
