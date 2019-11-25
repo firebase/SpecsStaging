@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FirebaseCrashlytics'
-  s.version          = '4.0.0-beta'
+  s.version          = '3.9'
   s.summary          = 'Best and lightest-weight crash reporting for mobile, desktop and tvOS.'
   s.description      = 'Firebase Crashlytics helps you track, prioritize, and fix stability issues that erode app quality.'
   s.homepage         = 'https://firebase.google.com/'
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors          = 'Google, Inc.'
   s.source           = {
     :git => 'https://github.com/FirebasePrivate/firebase-ios-sdk.git',
-    :tag => 'Crashlytics-' + s.version.to_s
+    :tag => '4.0.0-prebetatest3'
   }
 
   s.ios.deployment_target = '8.0'
@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   s.ios.pod_target_xcconfig = {
     'GCC_C_LANGUAGE_STANDARD' => 'c99',
     'GCC_PREPROCESSOR_DEFINITIONS' =>
-      'DISPLAY_VERSION=' + s.version.to_s + ' ' +
+      'DISPLAY_VERSION=' + s.version.to_s + 'test ' +
       'CLS_SDK_NAME="Crashlytics iOS SDK" ',
     'OTHER_LD_FLAGS' => '$(inherited) -sectcreate __TEXT __info_plist'
   }
@@ -59,7 +59,7 @@ Pod::Spec.new do |s|
   s.osx.pod_target_xcconfig = {
     'GCC_C_LANGUAGE_STANDARD' => 'c99',
     'GCC_PREPROCESSOR_DEFINITIONS' =>
-      'DISPLAY_VERSION=' + s.version.to_s + ' ' +
+      'DISPLAY_VERSION=' + s.version.to_s + 'test ' +
       'CLS_SDK_NAME="Crashlytics Mac SDK" ',
     'OTHER_LD_FLAGS' => '$(inherited) -sectcreate __TEXT __info_plist'
   }
@@ -67,7 +67,7 @@ Pod::Spec.new do |s|
   s.tvos.pod_target_xcconfig = {
     'GCC_C_LANGUAGE_STANDARD' => 'c99',
     'GCC_PREPROCESSOR_DEFINITIONS' =>
-      'DISPLAY_VERSION=' + s.version.to_s + ' ' +
+      'DISPLAY_VERSION=' + s.version.to_s + 'test ' +
       'CLS_SDK_NAME="Crashlytics tvOS SDK" ',
     'OTHER_LD_FLAGS' => '$(inherited) -sectcreate __TEXT __info_plist'
   }
