@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'Apache', :file => 'LICENSE' }
   s.authors          = 'Google, Inc.'
   s.source           = {
-    :git => 'https://github.com/FirebasePrivate/firebase-ios-sdk.git',
-    :tag => '4.0.0-prebetatest3.1'
+    :git => 'https://github.com/firebase/firebase-ios-sdk.git',
+    :tag => 'Crashlytics-4.0.0-beta.1'
   }
 
   s.ios.deployment_target = '8.0'
