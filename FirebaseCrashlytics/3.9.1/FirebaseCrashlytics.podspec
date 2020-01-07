@@ -36,8 +36,8 @@ Pod::Spec.new do |s|
   # Ensure the run script and upload-symbols are callable via
   # ${PODS_ROOT}/FirebaseCrashlytics/<name>
   s.prepare_command = <<-PREPARE_COMMAND_END
-    mv ./Crashlytics/run ./run
-    mv ./Crashlytics/upload-symbols ./upload-symbols
+    cp -f ./Crashlytics/run ./run
+    cp -f ./Crashlytics/upload-symbols ./upload-symbols
   PREPARE_COMMAND_END
 
   s.dependency 'FirebaseCore', '~> 6.3', '>= 6.3.2'
