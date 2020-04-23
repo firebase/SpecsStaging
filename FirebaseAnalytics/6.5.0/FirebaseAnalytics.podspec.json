@@ -3,7 +3,7 @@
   "dependencies": {
     "FirebaseCore": "~> 6.6",
     "FirebaseInstallations": "~> 1.2",
-    "GoogleAppMeasurement": "6.4.990",
+    "GoogleAppMeasurement": "6.5.0",
     "GoogleUtilities/AppDelegateSwizzler": "~> 6.0",
     "GoogleUtilities/MethodSwizzler": "~> 6.0",
     "GoogleUtilities/NSData+zlib": "~> 6.0",
@@ -36,5 +36,5 @@
     "Frameworks/FIRAnalyticsConnector.framework",
     "Frameworks/FirebaseAnalytics.framework"
   ],
-  "version": "6.4.990"
+  "version": "6.5.0"
 }
