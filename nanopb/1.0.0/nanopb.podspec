@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/nanopb/nanopb"
   s.license      = { :type => 'zlib', :file => 'LICENSE.txt' }
   s.author       = { "Petteri Aimonen" => "jpa@nanopb.mail.kapsi.fi" }
-  s.source       = { :git => "https://github.com/nanopb/nanopb.git", :tag => "0.3.9.4" }
+  s.source       = { :git => "https://github.com/nanopb/nanopb.git", :tag => "0.3.9.5" }
 
   s.requires_arc = false
   s.xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) PB_FIELD_32BIT=1 PB_NO_PACKED_STRUCTS=1 PB_ENABLE_MALLOC=1' }
