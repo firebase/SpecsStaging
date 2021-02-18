@@ -1,3 +1,3 @@
 # SpecsStaging
-The SpecsStaging repository is for pre-release testing of Google CocoaPod podspecs. Non-Google
-use is not supported.
+The SpecsStaging repository is for staging and testing Firebase CocoaPods releases.
+Non-Google use is not supported.
