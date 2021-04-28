@@ -52,16 +52,16 @@
       "~> 8.0"
     ],
     "GoogleUtilities/AppDelegateSwizzler": [
-      "~> 7.0"
+      "~> 7.4"
     ],
     "GoogleUtilities/Reachability": [
-      "~> 7.0"
+      "~> 7.4"
     ],
     "GoogleUtilities/Environment": [
-      "~> 7.0"
+      "~> 7.4"
     ],
     "GoogleUtilities/UserDefaults": [
-      "~> 7.0"
+      "~> 7.4"
     ]
   },
   "testspecs": [
