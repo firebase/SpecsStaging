@@ -45,10 +45,10 @@
       "~> 8.0"
     ],
     "GoogleUtilities/Environment": [
-      "~> 7.0"
+      "~> 7.4"
     ],
     "GoogleUtilities/NSData+zlib": [
-      "~> 7.0"
+      "~> 7.4"
     ]
   },
   "testspecs": [
