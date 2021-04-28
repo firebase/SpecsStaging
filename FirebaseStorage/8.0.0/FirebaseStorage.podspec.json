@@ -37,7 +37,7 @@
       "~> 8.0"
     ],
     "GTMSessionFetcher/Core": [
-      "~> 1.4"
+      "~> 1.5"
     ]
   },
   "pod_target_xcconfig": {
