@@ -23,8 +23,7 @@
   "cocoapods_version": ">= 1.4.0",
   "prefix_header_file": false,
   "source_files": [
-    "FirebaseMessaging/Sources/**/*",
-    "FirebaseMessaging/Sources/Protogen/nanopb/*.h",
+    "FirebaseMessaging/Sources/**/*.[mh]",
     "Interop/Analytics/Public/*.h",
     "FirebaseCore/Sources/Private/*.h",
     "FirebaseInstallations/Source/Library/Private/*.h"
@@ -33,7 +32,6 @@
   "libraries": "sqlite3",
   "pod_target_xcconfig": {
     "GCC_C_LANGUAGE_STANDARD": "c99",
-    "GCC_PREPROCESSOR_DEFINITIONS": "PB_FIELD_32BIT=1 PB_NO_PACKED_STRUCTS=1 PB_ENABLE_MALLOC=1",
     "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}\""
   },
   "ios": {
@@ -64,12 +62,6 @@
     ],
     "GoogleUtilities/UserDefaults": [
       "~> 7.4"
-    ],
-    "GoogleDataTransport": [
-      "~> 9.0"
-    ],
-    "nanopb": [
-      "~> 2.30908.0"
     ]
   },
   "testspecs": [
