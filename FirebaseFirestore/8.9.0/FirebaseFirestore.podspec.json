@@ -22,6 +22,7 @@
   "prefix_header_file": false,
   "public_header_files": "Firestore/Source/Public/FirebaseFirestore/*.h",
   "source_files": [
+    "FirebaseAppCheck/Sources/Interop/*.h",
     "FirebaseCore/Sources/Private/*.h",
     "Firestore/Source/Public/FirebaseFirestore/*.h",
     "Firestore/Source/**/*.{m,mm}",
