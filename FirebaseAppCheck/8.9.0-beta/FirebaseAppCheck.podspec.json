@@ -45,7 +45,7 @@
       "< 3.0"
     ],
     "GoogleUtilities/Environment": [
-      "~> 7.5"
+      "~> 7.6"
     ]
   },
   "pod_target_xcconfig": {
@@ -65,6 +65,7 @@
         "FirebaseAppCheck/Tests/Unit/**/*.[mh]",
         "FirebaseAppCheck/Tests/Utils/**/*.[mh]",
         "SharedTestUtilities/AppCheckFake/*",
+        "SharedTestUtilities/AppCheckBackoffWrapperFake/*",
         "SharedTestUtilities/Date/*",
         "SharedTestUtilities/URLSession/*"
       ],
