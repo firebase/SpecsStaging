@@ -54,16 +54,16 @@
       "~> 8.0"
     ],
     "GoogleUtilities/AppDelegateSwizzler": [
-      "~> 7.5"
+      "~> 7.6"
     ],
     "GoogleUtilities/Reachability": [
-      "~> 7.5"
+      "~> 7.6"
     ],
     "GoogleUtilities/Environment": [
-      "~> 7.5"
+      "~> 7.6"
     ],
     "GoogleUtilities/UserDefaults": [
-      "~> 7.5"
+      "~> 7.6"
     ],
     "GoogleDataTransport": [
       "~> 9.1"
