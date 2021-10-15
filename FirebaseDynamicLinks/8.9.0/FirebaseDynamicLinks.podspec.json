@@ -57,10 +57,10 @@
 
         ],
         "GoogleUtilities/MethodSwizzler": [
-          "~> 7.5"
+          "~> 7.6"
         ],
         "GoogleUtilities/SwizzlerTestHelpers": [
-          "~> 7.5"
+          "~> 7.6"
         ]
       }
     }
