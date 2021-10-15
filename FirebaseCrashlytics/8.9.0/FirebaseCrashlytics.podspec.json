@@ -54,7 +54,7 @@
       "~> 9.1"
     ],
     "GoogleUtilities/Environment": [
-      "~> 7.5"
+      "~> 7.6"
     ],
     "nanopb": [
       "~> 2.30908.0"
