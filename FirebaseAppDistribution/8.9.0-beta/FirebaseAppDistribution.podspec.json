@@ -29,10 +29,10 @@
       "~> 8.0"
     ],
     "GoogleUtilities/AppDelegateSwizzler": [
-      "~> 7.5"
+      "~> 7.6"
     ],
     "GoogleUtilities/UserDefaults": [
-      "~> 7.5"
+      "~> 7.6"
     ],
     "FirebaseInstallations": [
       "~> 8.0"
