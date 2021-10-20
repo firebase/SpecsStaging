@@ -16,7 +16,9 @@
   "static_framework": true,
   "swift_versions": "5.0",
   "platforms": {
-    "ios": "13.0"
+    "ios": "13.0",
+    "osx": "10.15",
+    "tvos": "13.0"
   },
   "cocoapods_version": ">= 1.10.0",
   "prefix_header_file": false,
