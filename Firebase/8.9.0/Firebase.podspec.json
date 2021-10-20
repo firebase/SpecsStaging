@@ -22,7 +22,7 @@
   "platforms": {
     "ios": "10.0",
     "osx": "10.12",
-    "tvos": "10.0"
+    "tvos": "12.0"
   },
   "cocoapods_version": ">= 1.4.0",
   "default_subspecs": "Core",
@@ -32,9 +32,23 @@
       "platforms": {
         "ios": "9.0",
         "osx": "10.12",
-        "tvos": "10.0"
+        "tvos": "12.0"
       },
       "ios": {
+        "dependencies": {
+          "FirebaseAnalytics": [
+            "~> 8.9.0"
+          ]
+        }
+      },
+      "osx": {
+        "dependencies": {
+          "FirebaseAnalytics": [
+            "~> 8.9.0"
+          ]
+        }
+      },
+      "tvos": {
         "dependencies": {
           "FirebaseAnalytics": [
             "~> 8.9.0"
@@ -69,7 +83,9 @@
     {
       "name": "Analytics",
       "platforms": {
-        "ios": "9.0"
+        "ios": "9.0",
+        "osx": "10.12",
+        "tvos": "12.0"
       },
       "dependencies": {
         "Firebase/Core": [
@@ -80,7 +96,9 @@
     {
       "name": "AnalyticsWithAdIdSupport",
       "platforms": {
-        "ios": "9.0"
+        "ios": "9.0",
+        "osx": "10.12",
+        "tvos": "12.0"
       },
       "dependencies": {
         "Firebase/Core": [
@@ -91,7 +109,9 @@
     {
       "name": "AnalyticsWithoutAdIdSupport",
       "platforms": {
-        "ios": "9.0"
+        "ios": "9.0",
+        "osx": "10.12",
+        "tvos": "12.0"
       },
       "ios": {
         "dependencies": {
