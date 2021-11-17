@@ -64,7 +64,6 @@
       },
       "source_files": [
         "FirebaseFunctions/Tests/Integration/*.[mh]",
-        "FirebaseFunctions/Tests/Integration/*.plist",
         "SharedTestUtilities/FIRAuthInteropFake*",
         "SharedTestUtilities/FIRMessagingInteropFake*"
       ]
