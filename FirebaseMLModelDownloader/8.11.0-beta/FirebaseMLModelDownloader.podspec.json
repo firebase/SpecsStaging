@@ -14,7 +14,7 @@
     "tag": "CocoaPods-8.11.0-beta"
   },
   "social_media_url": "https://twitter.com/Firebase",
-  "swift_versions": "5.0",
+  "swift_versions": "5.3",
   "platforms": {
     "ios": "10.0",
     "osx": "10.12",
@@ -80,5 +80,5 @@
       "requires_app_host": true
     }
   ],
-  "swift_version": "5.0"
+  "swift_version": "5.3"
 }
