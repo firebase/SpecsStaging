@@ -6,7 +6,7 @@
   "homepage": "https://developers.google.com/",
   "license": {
     "type": "Apache",
-    "file": "LICENSE"
+    "file": "Firestore/LICENSE"
   },
   "authors": "Google, Inc.",
   "source": {
