@@ -6,7 +6,7 @@
   "homepage": "https://firebase.google.com",
   "license": {
     "type": "Apache",
-    "file": "LICENSE"
+    "file": "FirebaseDatabase/LICENSE"
   },
   "authors": "Google, Inc.",
   "source": {
