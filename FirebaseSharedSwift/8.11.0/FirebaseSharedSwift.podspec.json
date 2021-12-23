@@ -13,7 +13,7 @@
     "git": "https://github.com/Firebase/firebase-ios-sdk.git",
     "tag": "CocoaPods-8.11.0"
   },
-  "swift_versions": "5.1",
+  "swift_versions": "5.3",
   "platforms": {
     "ios": "10.0",
     "osx": "10.12",
@@ -40,5 +40,5 @@
       "source_files": "FirebaseSharedSwift/Tests/**/*.swift"
     }
   ],
-  "swift_version": "5.1"
+  "swift_version": "5.3"
 }
