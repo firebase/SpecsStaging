@@ -38,7 +38,7 @@
       "~> 9.1"
     ],
     "GoogleUtilities/Logger": [
-      "~> 7.6"
+      "~> 7.7"
     ],
     "SwiftProtobuf": [
       "~> 1.0"
