@@ -45,7 +45,7 @@
       "< 3.0"
     ],
     "GoogleUtilities/Environment": [
-      "~> 7.6"
+      "~> 7.7"
     ]
   },
   "pod_target_xcconfig": {
