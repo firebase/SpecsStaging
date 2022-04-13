@@ -53,7 +53,10 @@
       "scheme": {
         "code_coverage": true
       },
-      "source_files": "FirebaseAppDistribution/Tests/Unit*/*.[mh]",
+      "source_files": [
+        "FirebaseAppDistribution/Tests/Unit*/*.[mh]",
+        "FirebaseAppDistribution/Tests/Unit/Swift*/*.swift"
+      ],
       "resources": "FirebaseAppDistribution/Tests/Unit/Resources/*",
       "dependencies": {
         "OCMock": [
