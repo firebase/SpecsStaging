@@ -60,7 +60,7 @@
       },
       "source_files": [
         "FirebaseStorageInternal/Tests/Integration/*.[mh]",
-        "FirebaseStorage/Tests/ObjCIntegration/*.m"
+        "FirebaseStorage/Tests/ObjCIntegration/*.{m,mm}"
       ],
       "requires_app_host": true,
       "resources": [
