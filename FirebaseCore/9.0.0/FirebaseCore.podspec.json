@@ -28,11 +28,7 @@
     "Interop/CoreDiagnostics/Public/*.h"
   ],
   "swift_versions": "5.3",
-  "public_header_files": [
-    "FirebaseCore/Sources/Public/FirebaseCore/*.h",
-    "FirebaseCore/Extension/*.h"
-  ],
-  "private_header_files": "FirebaseCore/Extension/*.h",
+  "public_header_files": "FirebaseCore/Sources/Public/FirebaseCore/*.h",
   "frameworks": "Foundation",
   "ios": {
     "frameworks": "UIKit"
