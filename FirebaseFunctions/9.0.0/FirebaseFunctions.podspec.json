@@ -45,7 +45,7 @@
       "~> 9.0"
     ],
     "GTMSessionFetcher/Core": [
-      "~> 1.5"
+      "~> 1.7"
     ]
   },
   "testspecs": [
