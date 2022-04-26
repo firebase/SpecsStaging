@@ -4,7 +4,7 @@
   "dependencies": {
     "GoogleAppMeasurement": [
       ">=7.0",
-      " <10.0"
+      "<10.0"
     ],
     "GoogleUserMessagingPlatform": [
       ">= 1.1"
