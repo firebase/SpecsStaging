@@ -25,9 +25,7 @@
   "prefix_header_file": false,
   "source_files": [
     "FirebaseStorage/Sources/*.swift",
-    "FirebaseStorage/Typedefs/*.h",
-    "FirebaseAppCheck/Interop/*.h",
-    "FirebaseAuth/Interop/*.h"
+    "FirebaseStorage/Typedefs/*.h"
   ],
   "dependencies": {
     "FirebaseStorageInternal": [
