@@ -52,7 +52,8 @@
       "~> 7.7"
     ],
     "GTMSessionFetcher/Core": [
-      "~> 1.7"
+      ">= 1.7",
+      "< 3.0"
     ]
   },
   "swift_version": "5.3"
