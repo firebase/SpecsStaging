@@ -16,7 +16,7 @@
   "cocoapods_version": ">= 1.10.2",
   "dependencies": {
     "GoogleAppMeasurementOnDeviceConversion": [
-      "9.1"
+      "9.2"
     ]
   },
   "static_framework": true,
