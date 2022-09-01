@@ -39,6 +39,9 @@
   "tvos": {
     "frameworks": "UIKit"
   },
+  "watchos": {
+    "frameworks": "WatchKit"
+  },
   "dependencies": {
     "GoogleUtilities/Environment": [
       "~> 7.7"
