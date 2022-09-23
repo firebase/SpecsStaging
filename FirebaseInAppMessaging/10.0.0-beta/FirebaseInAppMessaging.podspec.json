@@ -16,7 +16,7 @@
   "social_media_url": "https://twitter.com/Firebase",
   "platforms": {
     "ios": "11.0",
-    "tvos": "11.0"
+    "tvos": "12.0"
   },
   "swift_versions": "5.3",
   "cocoapods_version": ">= 1.4.0",
