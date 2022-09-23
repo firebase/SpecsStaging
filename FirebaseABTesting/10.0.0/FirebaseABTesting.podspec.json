@@ -17,7 +17,7 @@
   "platforms": {
     "ios": "11.0",
     "osx": "10.13",
-    "tvos": "11.0",
+    "tvos": "12.0",
     "watchos": "6.0"
   },
   "cocoapods_version": ">= 1.4.0",
@@ -49,7 +49,7 @@
       "platforms": {
         "ios": "11.0",
         "osx": "10.15",
-        "tvos": "11.0"
+        "tvos": "12.0"
       },
       "source_files": "FirebaseABTesting/Tests/Unit/**/*.[mh]",
       "resources": "FirebaseABTesting/Tests/Unit/Resources/*.txt",
