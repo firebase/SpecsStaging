@@ -16,7 +16,7 @@
   "social_media_url": "https://twitter.com/Firebase",
   "swift_versions": "5.3",
   "platforms": {
-    "ios": "10.0",
+    "ios": "11.0",
     "osx": "10.13",
     "tvos": "12.0",
     "watchos": "6.0"
@@ -58,7 +58,7 @@
       "name": "integration",
       "test_type": "unit",
       "platforms": {
-        "ios": "10.0",
+        "ios": "11.0",
         "osx": "10.13",
         "tvos": "12.0"
       },
@@ -73,7 +73,7 @@
       "name": "swift-unit",
       "test_type": "unit",
       "platforms": {
-        "ios": "10.0",
+        "ios": "11.0",
         "osx": "10.13",
         "tvos": "12.0"
       },
