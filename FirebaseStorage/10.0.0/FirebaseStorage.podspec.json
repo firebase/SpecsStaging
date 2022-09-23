@@ -17,7 +17,7 @@
   "platforms": {
     "ios": "11.0",
     "osx": "10.13",
-    "tvos": "11.0",
+    "tvos": "12.0",
     "watchos": "6.0"
   },
   "swift_versions": "5.3",
@@ -54,7 +54,7 @@
       "platforms": {
         "ios": "11.0",
         "osx": "10.13",
-        "tvos": "11.0"
+        "tvos": "12.0"
       },
       "source_files": [
         "FirebaseStorage/Tests/ObjCIntegration/*.{m,mm}"
@@ -82,7 +82,7 @@
       "platforms": {
         "ios": "11.0",
         "osx": "10.13",
-        "tvos": "11.0"
+        "tvos": "12.0"
       },
       "source_files": "FirebaseStorage/Tests/Unit/StorageAPITests.swift"
     },
@@ -95,7 +95,7 @@
       "platforms": {
         "ios": "11.0",
         "osx": "10.13",
-        "tvos": "11.0"
+        "tvos": "12.0"
       },
       "source_files": "FirebaseStorage/Tests/Integration/*.swift",
       "requires_app_host": true,
