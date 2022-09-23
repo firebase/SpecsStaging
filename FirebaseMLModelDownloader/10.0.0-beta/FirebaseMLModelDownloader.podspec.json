@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "11.0",
     "osx": "10.13",
-    "tvos": "11.0",
+    "tvos": "12.0",
     "watchos": "6.0"
   },
   "cocoapods_version": ">= 1.4.0",
@@ -59,7 +59,7 @@
       "platforms": {
         "ios": "11.0",
         "osx": "10.13",
-        "tvos": "11.0"
+        "tvos": "12.0"
       },
       "source_files": "FirebaseMLModelDownloader/Tests/Unit/**/*.swift",
       "requires_app_host": true
@@ -73,7 +73,7 @@
       "platforms": {
         "ios": "11.0",
         "osx": "10.13",
-        "tvos": "11.0"
+        "tvos": "12.0"
       },
       "source_files": "FirebaseMLModelDownloader/Tests/Integration/**/*.swift",
       "resources": "FirebaseMLModelDownloader/Tests/Integration/Resources/GoogleService-Info.plist",
