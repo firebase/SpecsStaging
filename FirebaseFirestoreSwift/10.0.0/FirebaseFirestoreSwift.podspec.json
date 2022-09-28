@@ -23,11 +23,16 @@
   "prefix_header_file": false,
   "requires_arc": true,
   "source_files": [
-    "Firestore/Swift/Source/**/*.swift",
-    "Firestore/third_party/FirestoreEncoder/*.swift"
+    "Firestore/Swift/Source/**/*.swift"
   ],
   "dependencies": {
+    "FirebaseCoreExtension": [
+      "~> 10.0"
+    ],
     "FirebaseFirestore": [
+      "~> 10.0"
+    ],
+    "FirebaseSharedSwift": [
       "~> 10.0"
     ]
   },
