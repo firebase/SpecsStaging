@@ -26,6 +26,9 @@
     "Firestore/Swift/Source/**/*.swift"
   ],
   "dependencies": {
+    "FirebaseCore": [
+      "~> 10.0"
+    ],
     "FirebaseCoreExtension": [
       "~> 10.0"
     ],
