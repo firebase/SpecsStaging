@@ -26,7 +26,8 @@
   "source_files": [
     "FirebaseAuth/Sources/**/*.[mh]",
     "FirebaseCore/Extension/*.h",
-    "FirebaseAuth/Interop/*.h"
+    "FirebaseAuth/Interop/*.h",
+    "FirebaseAppCheck/Interop/*.h"
   ],
   "public_header_files": "FirebaseAuth/Sources/Public/FirebaseAuth/*.h",
   "preserve_paths": [
@@ -42,6 +43,9 @@
     "frameworks": "SafariServices"
   },
   "dependencies": {
+    "FirebaseAppCheckInterop": [
+      "~> 10.0"
+    ],
     "FirebaseCore": [
       "~> 10.0"
     ],
