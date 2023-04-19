@@ -42,6 +42,18 @@
       "source_files": [
         "FirebaseAnalyticsSwift/Tests/SwiftUnit/**/*.swift"
       ]
+    },
+    {
+      "name": "objc-api-coverage",
+      "test_type": "unit",
+      "platforms": {
+        "ios": "13.0",
+        "osx": "10.15",
+        "tvos": "13.0"
+      },
+      "source_files": [
+        "FirebaseAnalyticsSwift/Tests/ObjCAPI/*.[hm]"
+      ]
     }
   ],
   "swift_version": "5.3"
