@@ -54,6 +54,7 @@
         "FirebaseAppDistribution/Tests/Unit*/*.[mh]",
         "FirebaseAppDistribution/Tests/Unit/Swift*/*.swift"
       ],
+      "requires_app_host": true,
       "resources": "FirebaseAppDistribution/Tests/Unit/Resources/*",
       "dependencies": {
         "OCMock": [
