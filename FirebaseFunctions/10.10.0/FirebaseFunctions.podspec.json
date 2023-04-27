@@ -60,7 +60,8 @@
       },
       "source_files": [
         "FirebaseFunctions/Tests/ObjCIntegration/ObjC*"
-      ]
+      ],
+      "requires_app_host": true
     },
     {
       "name": "integration",
@@ -70,7 +71,8 @@
         "osx": "10.13",
         "tvos": "12.0"
       },
-      "source_files": "FirebaseFunctions/Tests/Integration/*.swift"
+      "source_files": "FirebaseFunctions/Tests/Integration/*.swift",
+      "requires_app_host": true
     }
   ],
   "swift_version": "5.3"
