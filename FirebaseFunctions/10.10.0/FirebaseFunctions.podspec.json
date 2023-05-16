@@ -33,7 +33,7 @@
       "~> 10.0"
     ],
     "FirebaseAppCheckInterop": [
-      "~> 10.0"
+      "~> 10.10"
     ],
     "FirebaseAuthInterop": [
       "~> 10.0"
