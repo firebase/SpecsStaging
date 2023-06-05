@@ -60,6 +60,29 @@
   },
   "testspecs": [
     {
+      "name": "unit",
+      "test_type": "unit",
+      "scheme": {
+        "code_coverage": true
+      },
+      "platforms": {
+        "ios": "10.0",
+        "osx": "10.15",
+        "tvos": "12.0"
+      },
+      "source_files": [
+        "FirebaseCore/Tests/Unit/**/*.[mh]",
+        "SharedTestUtilities/FIROptionsMock.[mh]"
+      ],
+      "requires_app_host": true,
+      "dependencies": {
+        "OCMock": [
+
+        ]
+      },
+      "resources": "FirebaseCore/Tests/Unit/Resources/GoogleService-Info.plist"
+    },
+    {
       "name": "swift-unit",
       "test_type": "unit",
       "platforms": {
