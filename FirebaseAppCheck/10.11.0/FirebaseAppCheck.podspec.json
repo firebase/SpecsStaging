@@ -55,6 +55,30 @@
   },
   "testspecs": [
     {
+      "name": "unit",
+      "test_type": "unit",
+      "platforms": {
+        "ios": "11.0",
+        "osx": "10.13",
+        "tvos": "12.0"
+      },
+      "source_files": [
+        "FirebaseAppCheck/Tests/Unit/**/*.[mh]",
+        "FirebaseAppCheck/Tests/Utils/**/*.[mh]",
+        "SharedTestUtilities/AppCheckFake/*",
+        "SharedTestUtilities/AppCheckBackoffWrapperFake/*",
+        "SharedTestUtilities/Date/*",
+        "SharedTestUtilities/URLSession/*"
+      ],
+      "resources": "FirebaseAppCheck/Tests/Fixture/**/*",
+      "dependencies": {
+        "OCMock": [
+
+        ]
+      },
+      "requires_app_host": true
+    },
+    {
       "name": "integration",
       "test_type": "unit",
       "platforms": {
