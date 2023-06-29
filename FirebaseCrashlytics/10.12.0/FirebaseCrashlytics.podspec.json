@@ -37,7 +37,8 @@
   "preserve_paths": [
     "Crashlytics/README.md",
     "run",
-    "upload-symbols"
+    "upload-symbols",
+    "CrashlyticsInputFiles.xcfilelist"
   ],
   "prepare_command": "cp -f ./Crashlytics/run ./run\ncp -f ./Crashlytics/upload-symbols ./upload-symbols",
   "dependencies": {
