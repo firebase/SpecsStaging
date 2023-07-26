@@ -291,6 +291,13 @@
           ]
         }
       },
+      "tvos": {
+        "dependencies": {
+          "FirebaseInAppMessaging": [
+            "~> 10.13.0-beta"
+          ]
+        }
+      },
       "platforms": {
         "ios": "11.0",
         "tvos": "12.0"
