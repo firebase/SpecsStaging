@@ -55,6 +55,9 @@
     "GoogleUtilities/Environment": [
       "~> 7.8"
     ],
+    "RecaptchaInterop": [
+      "~> 100.0"
+    ],
     "GTMSessionFetcher/Core": [
       ">= 2.1",
       "< 4.0"
