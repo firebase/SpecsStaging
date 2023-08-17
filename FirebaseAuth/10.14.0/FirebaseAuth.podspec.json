@@ -40,7 +40,12 @@
   },
   "frameworks": "Security",
   "ios": {
-    "frameworks": "SafariServices"
+    "frameworks": "SafariServices",
+    "dependencies": {
+      "RecaptchaInterop": [
+        "~> 100.0"
+      ]
+    }
   },
   "dependencies": {
     "FirebaseAppCheckInterop": [
@@ -55,18 +60,10 @@
     "GoogleUtilities/Environment": [
       "~> 7.8"
     ],
-
     "GTMSessionFetcher/Core": [
       ">= 2.1",
       "< 4.0"
     ]
-  },
-  "ios": {
-    "dependencies": {
-      "RecaptchaInterop": [
-        "~> 100.0"
-      ]
-    }
   },
   "osx": {
     "pod_target_xcconfig": {
