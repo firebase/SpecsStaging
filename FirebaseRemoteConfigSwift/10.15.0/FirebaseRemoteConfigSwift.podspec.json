@@ -23,10 +23,13 @@
   "cocoapods_version": ">= 1.4.0",
   "prefix_header_file": false,
   "source_files": [
-    "FirebaseRemoteConfigSwift/Exporter/**/*.swift"
+    "FirebaseRemoteConfigSwift/Sources/**/*.swift"
   ],
   "dependencies": {
     "FirebaseRemoteConfig": [
+      "~> 10.0"
+    ],
+    "FirebaseSharedSwift": [
       "~> 10.0"
     ]
   },
