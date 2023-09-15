@@ -25,7 +25,6 @@
   "prefix_header_file": false,
   "source_files": [
     "FirebaseAppCheck/Sources/**/*.[mh]",
-    "FirebaseAppCheck/Interop/*.h",
     "FirebaseCore/Extension/*.h"
   ],
   "public_header_files": "FirebaseAppCheck/Sources/Public/FirebaseAppCheck/*.h",
@@ -39,6 +38,9 @@
     "weak_frameworks": "DeviceCheck"
   },
   "dependencies": {
+    "FirebaseAppCheckInterop": [
+      "~> 10.16"
+    ],
     "FirebaseCore": [
       "~> 10.0"
     ],
