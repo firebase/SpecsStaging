@@ -71,7 +71,7 @@
       "~> 10.0"
     ],
     "FirebaseAppCheckInterop": [
-      "~> 10.16"
+      "~> 10.17"
     ]
   },
   "pod_target_xcconfig": {
