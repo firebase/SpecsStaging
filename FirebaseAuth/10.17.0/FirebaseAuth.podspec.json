@@ -26,8 +26,7 @@
   "source_files": [
     "FirebaseAuth/Sources/**/*.[mh]",
     "FirebaseCore/Extension/*.h",
-    "FirebaseAuth/Interop/*.h",
-    "FirebaseAppCheck/Interop/*.h"
+    "FirebaseAuth/Interop/*.h"
   ],
   "public_header_files": "FirebaseAuth/Sources/Public/FirebaseAuth/*.h",
   "preserve_paths": [
@@ -49,7 +48,7 @@
   },
   "dependencies": {
     "FirebaseAppCheckInterop": [
-      "~> 10.0"
+      "~> 10.17"
     ],
     "FirebaseCore": [
       "~> 10.0"
