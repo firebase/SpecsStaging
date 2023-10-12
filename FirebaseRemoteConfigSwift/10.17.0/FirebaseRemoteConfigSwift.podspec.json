@@ -26,6 +26,9 @@
     "FirebaseRemoteConfigSwift/Sources/**/*.swift"
   ],
   "dependencies": {
+    "FirebaseCore": [
+      "~> 10.0"
+    ],
     "FirebaseRemoteConfig": [
       "~> 10.0"
     ],
