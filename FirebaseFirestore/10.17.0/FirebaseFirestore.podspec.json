@@ -23,7 +23,6 @@
   "prefix_header_file": false,
   "public_header_files": "Firestore/Source/Public/FirebaseFirestore/*.h",
   "source_files": [
-    "FirebaseAppCheck/Interop/*.h",
     "FirebaseCore/Extension/*.h",
     "Firestore/Source/Public/FirebaseFirestore/*.h",
     "Firestore/Source/**/*.{m,mm}",
@@ -56,6 +55,9 @@
     "Firestore/core/src/util/secure_random_openssl.cc"
   ],
   "dependencies": {
+    "FirebaseAppCheckInterop": [
+      "~> 10.17"
+    ],
     "FirebaseCore": [
       "~> 10.0"
     ],
