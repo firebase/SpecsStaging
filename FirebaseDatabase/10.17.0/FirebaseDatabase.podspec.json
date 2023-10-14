@@ -27,6 +27,7 @@
     "FirebaseDatabase/Sources/**/*.[mh]",
     "FirebaseDatabase/Sources/third_party/Wrap-leveldb/APLevelDB.mm",
     "FirebaseDatabase/Sources/third_party/SocketRocket/fbase64.c",
+    "FirebaseDatabase/Swift/Sources/**/*.swift",
     "FirebaseAuth/Interop/*.h",
     "FirebaseCore/Extension/*.h"
   ],
@@ -72,6 +73,9 @@
     ],
     "FirebaseAppCheckInterop": [
       "~> 10.17"
+    ],
+    "FirebaseSharedSwift": [
+      "~> 10.0"
     ]
   },
   "pod_target_xcconfig": {
