@@ -26,10 +26,7 @@
   ],
   "dependencies": {
     "FirebaseDatabase": [
-      "~> 10.0"
-    ],
-    "FirebaseSharedSwift": [
-      "~> 10.0"
+      "~> 10.17"
     ]
   },
   "swift_version": "5.3"
