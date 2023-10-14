@@ -20,12 +20,12 @@
   "cocoapods_version": ">= 1.4.0",
   "prefix_header_file": false,
   "source_files": [
-    "FirebaseInAppMessaging/Swift/Source/**/*.swift"
+    "FirebaseInAppMessagingSwift/Sources/**/*.swift"
   ],
   "frameworks": "UIKit",
   "dependencies": {
     "FirebaseInAppMessaging": [
-      "~> 10.0-beta"
+      "~> 10.17-beta"
     ]
   },
   "testspecs": [
