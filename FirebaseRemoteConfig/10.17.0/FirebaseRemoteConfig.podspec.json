@@ -28,7 +28,8 @@
     "Interop/Analytics/Public/*.h",
     "FirebaseABTesting/Sources/Private/*.h",
     "FirebaseCore/Extension/*.h",
-    "FirebaseInstallations/Source/Library/Private/*.h"
+    "FirebaseInstallations/Source/Library/Private/*.h",
+    "FirebaseRemoteConfig/Swift/**/*.swift"
   ],
   "public_header_files": "FirebaseRemoteConfig/Sources/Public/FirebaseRemoteConfig/*.h",
   "pod_target_xcconfig": {
@@ -37,6 +38,9 @@
   },
   "dependencies": {
     "FirebaseABTesting": [
+      "~> 10.0"
+    ],
+    "FirebaseSharedSwift": [
       "~> 10.0"
     ],
     "FirebaseCore": [
