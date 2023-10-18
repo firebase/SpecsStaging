@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "FirebaseAnalytics": [
-      "~> 10.0"
+      "~> 10.17"
     ]
   },
   "testspecs": [
