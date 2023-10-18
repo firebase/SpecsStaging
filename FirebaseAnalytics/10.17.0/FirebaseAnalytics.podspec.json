@@ -10,7 +10,7 @@
   },
   "authors": "Google, Inc.",
   "source": {
-    "http": "https://dl.google.com/firebase/ios/analytics/6b84dfc0fca41852/FirebaseAnalytics-10.16.0.tar.gz"
+    "http": "https://dl.google.com/firebase/ios/analytics/85d9c07fe160aa17/FirebaseAnalytics-10.17.0.tar.gz"
   },
   "cocoapods_version": ">= 1.10.0",
   "swift_versions": "5.3",
