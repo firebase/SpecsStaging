@@ -23,20 +23,11 @@
   "prefix_header_file": false,
   "requires_arc": true,
   "source_files": [
-    "Firestore/Swift/Source/**/*.swift"
+    "FirebaseFirestoreSwift/Sources/FirebaseFirestoreSwift.swift"
   ],
   "dependencies": {
-    "FirebaseCore": [
-      "~> 10.0"
-    ],
-    "FirebaseCoreExtension": [
-      "~> 10.0"
-    ],
     "FirebaseFirestore": [
-      "~> 10.0"
-    ],
-    "FirebaseSharedSwift": [
-      "~> 10.0"
+      "~> 10.17"
     ]
   },
   "swift_version": "5.3"
