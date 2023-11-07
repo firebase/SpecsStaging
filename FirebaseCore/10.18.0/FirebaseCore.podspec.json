@@ -43,10 +43,10 @@
   },
   "dependencies": {
     "GoogleUtilities/Environment": [
-      "~> 7.8"
+      "~> 7.12"
     ],
     "GoogleUtilities/Logger": [
-      "~> 7.8"
+      "~> 7.12"
     ],
     "FirebaseCoreInternal": [
       "~> 10.0"
