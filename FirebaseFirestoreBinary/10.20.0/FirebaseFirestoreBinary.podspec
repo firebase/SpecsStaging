@@ -18,6 +18,7 @@ Google Cloud Firestore is a NoSQL document database built for automatic scaling,
   s.tvos.deployment_target = '12.0'
   s.static_framework = true
   s.module_name = 'FirebaseFirestore'
+  s.header_dir = 'FirebaseFirestore'
 
   s.swift_version = '5.3'
 
