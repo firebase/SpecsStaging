@@ -20,7 +20,7 @@
   },
   "swift_versions": "5.3",
   "weak_frameworks": "FirebaseFirestoreInternal",
-  "cocoapods_version": ">= 1.4.0",
+  "cocoapods_version": ">= 1.12.0",
   "prefix_header_file": false,
   "public_header_files": "FirebaseFirestoreInternal/**/*.h",
   "requires_arc": true,

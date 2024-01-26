@@ -12,7 +12,7 @@
   "source": {
     "http": "https://dl.google.com/firebase/ios/analytics/0199e7929b47e2d9/FirebaseAnalytics-10.20.0.tar.gz"
   },
-  "cocoapods_version": ">= 1.10.0",
+  "cocoapods_version": ">= 1.12.0",
   "swift_versions": "5.3",
   "platforms": {
     "ios": "10.0",

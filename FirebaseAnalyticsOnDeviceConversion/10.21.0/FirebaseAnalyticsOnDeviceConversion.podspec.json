@@ -13,7 +13,7 @@
     "git": "https://github.com/firebase/firebase-ios-sdk.git",
     "tag": "CocoaPods-10.21.0"
   },
-  "cocoapods_version": ">= 1.10.2",
+  "cocoapods_version": ">= 1.12.0",
   "dependencies": {
     "GoogleAppMeasurementOnDeviceConversion": [
       "10.21.0"

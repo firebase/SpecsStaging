@@ -24,7 +24,7 @@
     "osx": "10.13",
     "tvos": "12.0"
   },
-  "cocoapods_version": ">= 1.4.0",
+  "cocoapods_version": ">= 1.12.0",
   "swift_versions": "5.3",
   "default_subspecs": "Core",
   "subspecs": [
