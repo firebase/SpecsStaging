@@ -35,4 +35,8 @@ Pod::Spec.new do |s|
     d.public_header_files = ['pb.h', 'pb_decode.h', 'pb_common.h']
     d.source_files = ['pb.h', 'pb_common.h', 'pb_common.c', 'pb_decode.h', 'pb_decode.c']
   end
+
+  s.resource_bundles = {
+    "#{s.module_name}_Privacy" => 'spm_resources/PrivacyInfo.xcprivacy'
+  }
 end
