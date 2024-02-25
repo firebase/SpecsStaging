@@ -32,6 +32,9 @@
     "FirebaseInstallations/Source/Library/Private/*.h"
   ],
   "public_header_files": "FirebaseMessaging/Sources/Public/FirebaseMessaging/*.h",
+  "resource_bundles": {
+    "FirebaseMessaging_Privacy": "FirebaseMessaging/Sources/Resources/PrivacyInfo.xcprivacy"
+  },
   "libraries": "sqlite3",
   "pod_target_xcconfig": {
     "GCC_C_LANGUAGE_STANDARD": "c99",
