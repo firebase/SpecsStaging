@@ -54,6 +54,9 @@
     "Firestore/core/src/util/log_stdio.cc",
     "Firestore/core/src/util/secure_random_openssl.cc"
   ],
+  "resource_bundles": {
+    "FirebaseFirestoreInternal_Privacy": "Firestore/Source/Resources/PrivacyInfo.xcprivacy"
+  },
   "dependencies": {
     "FirebaseAppCheckInterop": [
       "~> 10.17"
