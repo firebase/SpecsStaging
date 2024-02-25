@@ -28,6 +28,9 @@
     "Interop/Analytics/Public/*.h",
     "FirebaseCore/Extension/*.h"
   ],
+  "resource_bundles": {
+    "FirebaseABTesting_Privacy": "FirebaseABTesting/Sources/Resources/PrivacyInfo.xcprivacy"
+  },
   "requires_arc": "FirebaseABTesting/Sources/*.m",
   "public_header_files": "FirebaseABTesting/Sources/Public/FirebaseABTesting/*.h",
   "pod_target_xcconfig": {
