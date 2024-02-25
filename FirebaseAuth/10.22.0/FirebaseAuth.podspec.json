@@ -29,6 +29,9 @@
     "FirebaseAuth/Interop/*.h"
   ],
   "public_header_files": "FirebaseAuth/Sources/Public/FirebaseAuth/*.h",
+  "resource_bundles": {
+    "FirebaseAuth_Privacy": "FirebaseAuth/Sources/Resources/PrivacyInfo.xcprivacy"
+  },
   "preserve_paths": [
     "FirebaseAuth/README.md",
     "FirebaseAuth/CHANGELOG.md"
