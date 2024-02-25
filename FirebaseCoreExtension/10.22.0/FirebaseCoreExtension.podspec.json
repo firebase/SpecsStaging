@@ -23,6 +23,9 @@
   },
   "source_files": "FirebaseCore/Extension/*.[hm]",
   "public_header_files": "FirebaseCore/Extension/*.h",
+  "resource_bundles": {
+    "FirebaseCoreExtension_Privacy": "FirebaseCore/Extension/Resources/PrivacyInfo.xcprivacy"
+  },
   "dependencies": {
     "FirebaseCore": [
       "~> 10.0"
