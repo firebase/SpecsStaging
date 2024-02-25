@@ -26,6 +26,9 @@
     "FirebaseCore/Sources/**/*.[mh]",
     "FirebaseCore/Extension/*.h"
   ],
+  "resource_bundles": {
+    "FirebaseCore_Privacy": "FirebaseCore/Sources/Resources/PrivacyInfo.xcprivacy"
+  },
   "swift_versions": "5.3",
   "public_header_files": "FirebaseCore/Sources/Public/FirebaseCore/*.h",
   "frameworks": "Foundation",
