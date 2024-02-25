@@ -32,6 +32,9 @@
     "FirebaseRemoteConfig/Swift/**/*.swift"
   ],
   "public_header_files": "FirebaseRemoteConfig/Sources/Public/FirebaseRemoteConfig/*.h",
+  "resource_bundles": {
+    "FirebaseRemoteConfig_Privacy": "FirebaseRemoteConfig/Swift/Resources/PrivacyInfo.xcprivacy"
+  },
   "pod_target_xcconfig": {
     "GCC_C_LANGUAGE_STANDARD": "c99",
     "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}\""
