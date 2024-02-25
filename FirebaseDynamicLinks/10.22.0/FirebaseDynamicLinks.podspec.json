@@ -26,6 +26,9 @@
     "FirebaseCore/Extension/*.h"
   ],
   "public_header_files": "FirebaseDynamicLinks/Sources/Public/FirebaseDynamicLinks/*.h",
+  "resource_bundles": {
+    "FirebaseDynamicLinks_Privacy": "FirebaseDynamicLinks/Sources/Resources/PrivacyInfo.xcprivacy"
+  },
   "frameworks": "QuartzCore",
   "weak_frameworks": "WebKit",
   "dependencies": {
