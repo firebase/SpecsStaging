@@ -30,6 +30,9 @@
   "public_header_files": [
     "FirebaseInstallations/Source/Library/Public/FirebaseInstallations/*.h"
   ],
+  "resource_bundles": {
+    "FirebaseInstallations_Privacy": "FirebaseInstallations/Source/Library/Resources/PrivacyInfo.xcprivacy"
+  },
   "frameworks": "Security",
   "dependencies": {
     "FirebaseCore": [
