@@ -31,6 +31,9 @@
     "FirebaseInstallations/Source/Library/Private/*.h",
     "Interop/Analytics/Public/*.h"
   ],
+  "resource_bundles": {
+    "FirebaseCrashlytics_Privacy": "Crashlytics/Resources/PrivacyInfo.xcprivacy"
+  },
   "public_header_files": [
     "Crashlytics/Crashlytics/Public/FirebaseCrashlytics/*.h"
   ],
