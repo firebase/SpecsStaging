@@ -23,6 +23,9 @@
   "source_files": [
     "FirebaseCore/Internal/Sources/**/*.swift"
   ],
+  "resource_bundles": {
+    "FirebaseCoreInternal_Privacy": "FirebaseCore/Internal/Sources/Resources/PrivacyInfo.xcprivacy"
+  },
   "swift_versions": "5.3",
   "dependencies": {
     "GoogleUtilities/NSData+zlib": [
