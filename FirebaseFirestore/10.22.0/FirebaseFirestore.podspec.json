@@ -28,6 +28,9 @@
     "FirebaseFirestoreInternal/**/*.[mh]",
     "Firestore/Swift/Source/**/*.swift"
   ],
+  "resource_bundles": {
+    "FirebaseFirestore_Privacy": "Firestore/Swift/Source/Resources/PrivacyInfo.xcprivacy"
+  },
   "dependencies": {
     "FirebaseCore": [
       "~> 10.0"
