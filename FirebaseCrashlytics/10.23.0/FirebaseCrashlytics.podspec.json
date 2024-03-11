@@ -23,7 +23,7 @@
   "cocoapods_version": ">= 1.12.0",
   "prefix_header_file": false,
   "source_files": [
-    "Crashlytics/Crashlytics/**/*.{c,h,m,mm}",
+    "Crashlytics/Crashlytics/**/*.{c,h,m,mm,swift}",
     "Crashlytics/Protogen/**/*.{c,h,m,mm}",
     "Crashlytics/Shared/**/*.{c,h,m,mm}",
     "Crashlytics/third_party/**/*.{c,h,m,mm}",
@@ -53,6 +53,9 @@
     ],
     "FirebaseSessions": [
       "~> 10.5"
+    ],
+    "FirebaseRemoteConfigInterop": [
+      "~> 10.23"
     ],
     "PromisesObjC": [
       "~> 2.1"
@@ -124,7 +127,8 @@
       },
       "source_files": [
         "Crashlytics/UnitTests/*.[mh]",
-        "Crashlytics/UnitTests/*/*.[mh]"
+        "Crashlytics/UnitTests/*/*.[mh]",
+        "Crashlytics/UnitTestsSwift/*.swift"
       ],
       "resources": [
         "Crashlytics/UnitTests/Data/*",
