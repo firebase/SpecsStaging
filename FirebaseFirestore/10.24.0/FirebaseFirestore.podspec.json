@@ -39,7 +39,7 @@
       "~> 10.0"
     ],
     "FirebaseFirestoreInternal": [
-      "~> 10.17"
+      "10.24.0"
     ],
     "FirebaseSharedSwift": [
       "~> 10.0"
