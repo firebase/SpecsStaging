@@ -82,7 +82,10 @@
       "~> 10.0"
     ],
     "GoogleUtilities/Environment": [
-      "~> 7.8"
+      "~> 7.13"
+    ],
+    "GoogleUtilities/UserDefaults": [
+      "~> 7.13"
     ],
     "nanopb": [
       ">= 2.30908.0",
