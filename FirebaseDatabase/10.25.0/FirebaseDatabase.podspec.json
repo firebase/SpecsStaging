@@ -76,6 +76,9 @@
     ],
     "FirebaseSharedSwift": [
       "~> 10.0"
+    ],
+    "GoogleUtilities/UserDefaults": [
+      "~> 7.13"
     ]
   },
   "pod_target_xcconfig": {
