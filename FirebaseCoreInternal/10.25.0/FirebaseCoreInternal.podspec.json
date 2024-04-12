@@ -40,9 +40,9 @@
         "code_coverage": true
       },
       "platforms": {
-        "ios": "10.0",
-        "osx": "10.13",
-        "tvos": "12.0"
+        "ios": "13.0",
+        "osx": "10.15",
+        "tvos": "13.0"
       },
       "source_files": [
         "FirebaseCore/Internal/Tests/Unit/**/*.swift",
