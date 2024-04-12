@@ -51,7 +51,10 @@
       "~> 2.1"
     ],
     "GoogleUtilities/Environment": [
-      "~> 7.8"
+      "~> 7.13"
+    ],
+    "GoogleUtilities/UserDefaults": [
+      "~> 7.13"
     ]
   },
   "pod_target_xcconfig": {
