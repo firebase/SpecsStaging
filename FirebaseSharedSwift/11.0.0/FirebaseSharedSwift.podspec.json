@@ -13,12 +13,12 @@
     "git": "https://github.com/Firebase/firebase-ios-sdk.git",
     "tag": "CocoaPods-11.0.0"
   },
-  "swift_versions": "5.3",
+  "swift_versions": "5.9",
   "platforms": {
-    "ios": "11.0",
-    "osx": "10.13",
-    "tvos": "12.0",
-    "watchos": "6.0"
+    "ios": "13.0",
+    "osx": "10.15",
+    "tvos": "13.0",
+    "watchos": "7.0"
   },
   "cocoapods_version": ">= 1.12.0",
   "prefix_header_file": false,
@@ -30,14 +30,14 @@
       "name": "unit",
       "test_type": "unit",
       "platforms": {
-        "ios": "11.0",
-        "osx": "10.13",
-        "tvos": "12.0"
+        "ios": "13.0",
+        "osx": "10.15",
+        "tvos": "13.0"
       },
       "source_files": [
         "FirebaseSharedSwift/Tests/**/*.swift"
       ]
     }
   ],
-  "swift_version": "5.3"
+  "swift_version": "5.9"
 }
