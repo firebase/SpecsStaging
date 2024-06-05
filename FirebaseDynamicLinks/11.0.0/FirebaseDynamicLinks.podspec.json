@@ -15,9 +15,9 @@
   },
   "social_media_url": "https://twitter.com/Firebase",
   "platforms": {
-    "ios": "11.0"
+    "ios": "13.0"
   },
-  "swift_versions": "5.3",
+  "swift_versions": "5.9",
   "cocoapods_version": ">= 1.12.0",
   "prefix_header_file": false,
   "source_files": [
@@ -69,5 +69,5 @@
       }
     }
   ],
-  "swift_version": "5.3"
+  "swift_version": "5.9"
 }
