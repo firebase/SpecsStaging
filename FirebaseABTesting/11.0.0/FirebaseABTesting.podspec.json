@@ -15,14 +15,14 @@
   },
   "social_media_url": "https://twitter.com/Firebase",
   "platforms": {
-    "ios": "11.0",
-    "osx": "10.13",
-    "tvos": "12.0",
-    "watchos": "6.0"
+    "ios": "13.0",
+    "osx": "10.15",
+    "tvos": "13.0",
+    "watchos": "7.0"
   },
   "cocoapods_version": ">= 1.12.0",
   "prefix_header_file": false,
-  "swift_versions": "5.3",
+  "swift_versions": "5.9",
   "source_files": [
     "FirebaseABTesting/Sources/**/*.[mh]",
     "Interop/Analytics/Public/*.h",
@@ -50,9 +50,9 @@
         "code_coverage": true
       },
       "platforms": {
-        "ios": "11.0",
+        "ios": "13.0",
         "osx": "10.15",
-        "tvos": "12.0"
+        "tvos": "13.0"
       },
       "source_files": "FirebaseABTesting/Tests/Unit/**/*.[mh]",
       "resources": "FirebaseABTesting/Tests/Unit/Resources/*.txt",
@@ -64,5 +64,5 @@
       }
     }
   ],
-  "swift_version": "5.3"
+  "swift_version": "5.9"
 }
