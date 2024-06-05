@@ -23,8 +23,7 @@
   "prefix_header_file": false,
   "source_files": [
     "GoogleDataTransport/GDTCORLibrary/**/*",
-    "GoogleDataTransport/GDTCCTLibrary/**/*",
-    "third_party/GDTCORClockUtils/**/*.[mh]"
+    "GoogleDataTransport/GDTCCTLibrary/**/*"
   ],
   "public_header_files": "GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/*.h",
   "ios": {
