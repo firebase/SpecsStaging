@@ -15,10 +15,10 @@
   },
   "social_media_url": "https://twitter.com/Firebase",
   "platforms": {
-    "ios": "10.0",
-    "osx": "10.13",
-    "tvos": "12.0",
-    "watchos": "6.0"
+    "ios": "12.0",
+    "osx": "10.15",
+    "tvos": "13.0",
+    "watchos": "7.0"
   },
   "source_files": [
     "FirebaseCore/Internal/Sources/**/*.swift"
@@ -26,7 +26,7 @@
   "resource_bundles": {
     "FirebaseCoreInternal_Privacy": "FirebaseCore/Internal/Sources/Resources/PrivacyInfo.xcprivacy"
   },
-  "swift_versions": "5.3",
+  "swift_versions": "5.9",
   "dependencies": {
     "GoogleUtilities/NSData+zlib": [
       "~> 8.0"
@@ -57,9 +57,9 @@
         "code_coverage": true
       },
       "platforms": {
-        "ios": "10.0",
-        "osx": "10.13",
-        "tvos": "12.0"
+        "ios": "12.0",
+        "osx": "10.15",
+        "tvos": "13.0"
       },
       "source_files": [
         "FirebaseCore/Internal/Tests/Integration/**/*.swift",
@@ -68,5 +68,5 @@
       "requires_app_host": true
     }
   ],
-  "swift_version": "5.3"
+  "swift_version": "5.9"
 }
