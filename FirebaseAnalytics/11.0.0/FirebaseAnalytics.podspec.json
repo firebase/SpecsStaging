@@ -13,11 +13,11 @@
     "http": "https://dl.google.com/firebase/ios/analytics/069659a8d012c35e/FirebaseAnalytics-10.27.0.tar.gz"
   },
   "cocoapods_version": ">= 1.12.0",
-  "swift_versions": "5.3",
+  "swift_versions": "5.9",
   "platforms": {
-    "ios": "10.0",
-    "osx": "10.13",
-    "tvos": "12.0"
+    "ios": "12.0",
+    "osx": "10.15",
+    "tvos": "13.0"
   },
   "libraries": [
     "c++",
@@ -70,5 +70,5 @@
       "vendored_frameworks": "Frameworks/FirebaseAnalytics.xcframework"
     }
   ],
-  "swift_version": "5.3"
+  "swift_version": "5.9"
 }
