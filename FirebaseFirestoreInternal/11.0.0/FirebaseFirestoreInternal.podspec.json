@@ -14,11 +14,11 @@
     "tag": "CocoaPods-11.0.0"
   },
   "platforms": {
-    "ios": "11.0",
-    "osx": "10.13",
-    "tvos": "12.0"
+    "ios": "13.0",
+    "osx": "10.15",
+    "tvos": "13.0"
   },
-  "swift_versions": "5.3",
+  "swift_versions": "5.9",
   "cocoapods_version": ">= 1.12.0",
   "prefix_header_file": false,
   "public_header_files": "Firestore/Source/Public/FirebaseFirestore/*.h",
@@ -126,5 +126,5 @@
     "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}\" \"${PODS_TARGET_SRCROOT}/Firestore/Source/Public\" \"${PODS_ROOT}/nanopb\" \"${PODS_TARGET_SRCROOT}/Firestore/Protos/nanopb\""
   },
   "compiler_flags": "$(inherited) -Wreorder -Werror=reorder -Wno-comma",
-  "swift_version": "5.3"
+  "swift_version": "5.9"
 }
