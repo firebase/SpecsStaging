@@ -13,16 +13,16 @@
     "git": "https://github.com/firebase/firebase-ios-sdk.git",
     "tag": "CocoaPods-11.0.0"
   },
-  "swift_versions": "5.3",
+  "swift_versions": "5.9",
   "cocoapods_version": ">= 1.12.0",
   "prefix_header_file": false,
   "social_media_url": "https://twitter.com/Firebase",
   "platforms": {
-    "ios": "11.0",
-    "osx": "10.13",
-    "tvos": "12.0",
-    "watchos": "6.0"
+    "ios": "12.0",
+    "osx": "10.15",
+    "tvos": "13.0",
+    "watchos": "7.0"
   },
   "source_files": "FirebaseRemoteConfig/Interop/*.swift",
-  "swift_version": "5.3"
+  "swift_version": "5.9"
 }
