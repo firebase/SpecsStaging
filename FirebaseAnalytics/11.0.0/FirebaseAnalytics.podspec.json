@@ -46,7 +46,7 @@
     ],
     "nanopb": [
       ">= 2.30908.0",
-      "< 2.30911.0"
+      "< 3.30911.0"
     ]
   },
   "default_subspecs": "AdIdSupport",
