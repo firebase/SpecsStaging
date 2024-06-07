@@ -16,10 +16,10 @@
   "social_media_url": "https://twitter.com/Firebase",
   "swift_versions": "5.5",
   "platforms": {
-    "ios": "11.0",
-    "osx": "10.13",
-    "tvos": "12.0",
-    "watchos": "6.0"
+    "ios": "12.0",
+    "osx": "10.15",
+    "tvos": "13.0",
+    "watchos": "7.0"
   },
   "cocoapods_version": ">= 1.4.0",
   "prefix_header_file": false,
@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "PromisesObjC": [
-      "~> 2.3"
+      "~> 2.4"
     ],
     "GoogleUtilities/Environment": [
       "~> 8.0"
@@ -56,9 +56,9 @@
       "name": "unit",
       "test_type": "unit",
       "platforms": {
-        "ios": "11.0",
-        "osx": "10.13",
-        "tvos": "12.0"
+        "ios": "12.0",
+        "osx": "10.15",
+        "tvos": "13.0"
       },
       "source_files": [
         "AppCheckCore/Tests/Unit/**/*.[mh]",
@@ -76,9 +76,9 @@
       "name": "integration",
       "test_type": "unit",
       "platforms": {
-        "ios": "11.0",
-        "osx": "10.13",
-        "tvos": "12.0"
+        "ios": "12.0",
+        "osx": "10.15",
+        "tvos": "13.0"
       },
       "source_files": [
         "AppCheckCore/Tests/Integration/**/*.[mh]",
@@ -91,9 +91,9 @@
       "name": "swift-unit",
       "test_type": "unit",
       "platforms": {
-        "ios": "11.0",
-        "osx": "10.13",
-        "tvos": "12.0"
+        "ios": "12.0",
+        "osx": "10.15",
+        "tvos": "13.0"
       },
       "source_files": [
         "AppCheckCore/Tests/Unit/Swift/**/*.swift",
