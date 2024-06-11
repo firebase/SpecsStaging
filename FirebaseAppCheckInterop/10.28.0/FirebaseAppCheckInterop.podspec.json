@@ -21,5 +21,31 @@
     "watchos": "6.0"
   },
   "source_files": "FirebaseAppCheck/Interop/**/*.[hm]",
-  "public_header_files": "FirebaseAppCheck/Interop/Public/FirebaseAppCheckInterop/*.h"
+  "public_header_files": "FirebaseAppCheck/Interop/Public/FirebaseAppCheckInterop/*.h",
+  "testspecs": [
+    {
+      "name": "objc-unit",
+      "test_type": "unit",
+      "platforms": {
+        "ios": "10.0",
+        "osx": "10.13",
+        "tvos": "12.0"
+      },
+      "source_files": [
+        "FirebaseAppCheck/Tests/Interop/ObjC/**/*.[hm]"
+      ]
+    },
+    {
+      "name": "swift-unit",
+      "test_type": "unit",
+      "platforms": {
+        "ios": "10.0",
+        "osx": "10.13",
+        "tvos": "12.0"
+      },
+      "source_files": [
+        "FirebaseAppCheck/Tests/Interop/Swift/**/*.swift"
+      ]
+    }
+  ]
 }
