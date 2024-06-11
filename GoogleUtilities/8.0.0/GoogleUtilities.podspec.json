@@ -84,10 +84,6 @@
       ],
       "public_header_files": "GoogleUtilities/Environment/Public/GoogleUtilities/*.h",
       "dependencies": {
-        "PromisesObjC": [
-          ">= 1.2",
-          "< 3.0"
-        ],
         "GoogleUtilities/Privacy": [
 
         ]
