@@ -45,9 +45,6 @@
     "z"
   ],
   "dependencies": {
-    "GoogleUtilities/Environment": [
-      "~> 8.0"
-    ],
     "nanopb": [
       "~> 3.30910.0"
     ],
