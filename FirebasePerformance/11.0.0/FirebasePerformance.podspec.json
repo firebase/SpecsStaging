@@ -60,9 +60,6 @@
     "GoogleUtilities/Environment": [
       "~> 8.0"
     ],
-    "GoogleUtilities/ISASwizzler": [
-      "~> 8.0"
-    ],
     "GoogleUtilities/MethodSwizzler": [
       "~> 8.0"
     ],
@@ -70,8 +67,7 @@
       "~> 8.0"
     ],
     "nanopb": [
-      ">= 2.30908.0",
-      "< 2.30911.0"
+      "~> 3.30910.0"
     ]
   },
   "testspecs": [
