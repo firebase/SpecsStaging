@@ -88,8 +88,7 @@
       "~> 8.0"
     ],
     "nanopb": [
-      ">= 2.30908.0",
-      "< 2.30911.0"
+      "~> 3.30910.0"
     ]
   },
   "testspecs": [
@@ -99,7 +98,10 @@
       "scheme": {
         "code_coverage": true
       },
-      "source_files": "FirebaseInAppMessaging/Tests/Unit/*.[mh]",
+      "source_files": [
+        "FirebaseInAppMessaging/Tests/Unit/*.[mh]",
+        "FirebaseInAppMessaging/Swift/Tests/Unit/*.swift"
+      ],
       "resources": "FirebaseInAppMessaging/Tests/Unit/*.txt",
       "requires_app_host": true,
       "dependencies": {
