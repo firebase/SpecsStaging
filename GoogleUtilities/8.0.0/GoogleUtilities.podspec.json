@@ -195,19 +195,6 @@
       }
     },
     {
-      "name": "ISASwizzler",
-      "source_files": [
-        "GoogleUtilities/ISASwizzler/**/*.[mh]",
-        "GoogleUtilities/Common/*.h"
-      ],
-      "public_header_files": "GoogleUtilities/ISASwizzler/Public/GoogleUtilities/*.h",
-      "dependencies": {
-        "GoogleUtilities/Privacy": [
-
-        ]
-      }
-    },
-    {
       "name": "MethodSwizzler",
       "source_files": [
         "GoogleUtilities/MethodSwizzler/**/*.[mh]",
