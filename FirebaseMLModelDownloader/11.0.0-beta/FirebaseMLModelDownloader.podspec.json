@@ -31,14 +31,14 @@
     "FirebaseCore": [
       "~> 11.0"
     ],
+    "FirebaseCoreExtension": [
+      "~> 11.0"
+    ],
     "FirebaseInstallations": [
       "~> 11.0"
     ],
     "GoogleDataTransport": [
       "~> 10.0"
-    ],
-    "GoogleUtilities/Logger": [
-      "~> 8.0"
     ],
     "GoogleUtilities/UserDefaults": [
       "~> 8.0"
