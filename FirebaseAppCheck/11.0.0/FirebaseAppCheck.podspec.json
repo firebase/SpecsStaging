@@ -48,7 +48,7 @@
       "~> 11.0"
     ],
     "PromisesObjC": [
-      "~> 2.1"
+      "~> 2.4"
     ],
     "GoogleUtilities/Environment": [
       "~> 8.0"
