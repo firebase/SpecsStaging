@@ -100,6 +100,67 @@
         ]
       },
       "requires_arc": true
+    },
+    {
+      "name": "swift-api-tests",
+      "test_type": "unit",
+      "scheme": {
+        "code_coverage": true
+      },
+      "platforms": {
+        "ios": "13.0",
+        "osx": "10.15",
+        "tvos": "13.0"
+      },
+      "source_files": [
+        "FirebaseRemoteConfig/Tests/Swift/SwiftAPI/*.swift",
+        "FirebaseRemoteConfig/Tests/Swift/FakeUtils/*.swift",
+        "FirebaseRemoteConfig/Tests/Swift/ObjC/*.[hm]"
+      ],
+      "exclude_files": [
+        "FirebaseRemoteConfig/Tests/Swift/SwiftAPI/PropertyWrapperTests.swift"
+      ],
+      "resources": "FirebaseRemoteConfig/Tests/Swift/Defaults-testInfo.plist",
+      "requires_app_host": true,
+      "pod_target_xcconfig": {
+        "SWIFT_OBJC_BRIDGING_HEADER": "$(PODS_TARGET_SRCROOT)/FirebaseRemoteConfig/Tests/Swift/ObjC/Bridging-Header.h",
+        "OTHER_SWIFT_FLAGS": "$(inherited) ",
+        "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}\""
+      },
+      "dependencies": {
+        "OCMock": [
+
+        ]
+      }
+    },
+    {
+      "name": "fake-console-tests",
+      "test_type": "unit",
+      "scheme": {
+        "code_coverage": true
+      },
+      "platforms": {
+        "ios": "13.0",
+        "osx": "10.15",
+        "tvos": "13.0"
+      },
+      "source_files": [
+        "FirebaseRemoteConfig/Tests/Swift/SwiftAPI/*.swift",
+        "FirebaseRemoteConfig/Tests/Swift/FakeUtils/*.swift",
+        "FirebaseRemoteConfig/Tests/Swift/FakeConsole/*.swift",
+        "FirebaseRemoteConfig/Tests/Swift/ObjC/*.[hm]"
+      ],
+      "resources": "FirebaseRemoteConfig/Tests/Swift/Defaults-testInfo.plist",
+      "requires_app_host": true,
+      "pod_target_xcconfig": {
+        "SWIFT_OBJC_BRIDGING_HEADER": "$(PODS_TARGET_SRCROOT)/FirebaseRemoteConfig/Tests/Swift/ObjC/Bridging-Header.h",
+        "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}\""
+      },
+      "dependencies": {
+        "OCMock": [
+
+        ]
+      }
     }
   ],
   "swift_version": "5.9"
