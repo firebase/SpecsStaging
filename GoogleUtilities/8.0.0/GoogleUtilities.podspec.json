@@ -103,7 +103,10 @@
         "GoogleUtilities/Privacy": [
 
         ]
-      }
+      },
+      "frameworks": [
+        "OSLog"
+      ]
     },
     {
       "name": "Network",
