@@ -47,9 +47,6 @@
     "FirebaseCore": [
       "~> 11.0"
     ],
-    "PromisesObjC": [
-      "~> 2.4"
-    ],
     "GoogleUtilities/Environment": [
       "~> 8.0"
     ],
