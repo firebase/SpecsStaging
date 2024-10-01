@@ -16,7 +16,7 @@
   "social_media_url": "https://twitter.com/Firebase",
   "platforms": {
     "ios": "15.0",
-    "osx": "11.0",
+    "osx": "12.0",
     "tvos": "15.0",
     "watchos": "8.0"
   },
@@ -62,7 +62,7 @@
       },
       "platforms": {
         "ios": "15.0",
-        "osx": "11.0",
+        "osx": "12.0",
         "tvos": "15.0"
       },
       "source_files": [
