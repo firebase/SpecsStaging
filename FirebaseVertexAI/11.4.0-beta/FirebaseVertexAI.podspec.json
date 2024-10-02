@@ -47,10 +47,10 @@
       "~> 11.2"
     ],
     "FirebaseCore": [
-      "~> 11.2"
+      "~> 11.4"
     ],
     "FirebaseCoreExtension": [
-      "~> 11.2"
+      "~> 11.4"
     ]
   },
   "testspecs": [
