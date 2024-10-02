@@ -27,10 +27,10 @@
   ],
   "dependencies": {
     "FirebaseCore": [
-      "~> 11.0"
+      "~> 11.4"
     ],
     "FirebaseCoreExtension": [
-      "~> 11.0"
+      "~> 11.4"
     ],
     "FirebaseAppCheckInterop": [
       "~> 11.0"
