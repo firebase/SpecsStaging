@@ -24,6 +24,7 @@
   "public_header_files": "Firestore/Source/Public/FirebaseFirestore/*.h",
   "source_files": [
     "FirebaseCore/Extension/*.h",
+    "FirebaseCore/Sources/FIROptionsInternal.h",
     "Firestore/Source/Public/FirebaseFirestore/*.h",
     "Firestore/Source/**/*.{m,mm}",
     "Firestore/Protos/nanopb/**/*.cc",
