@@ -69,7 +69,8 @@
         "FirebaseVertexAI/Tests/Unit/**/*.swift"
       ],
       "resources": [
-        "FirebaseVertexAI/Tests/Unit/vertexai-sdk-test-data/mock-responses/**/*.{txt,json}"
+        "FirebaseVertexAI/Tests/Unit/vertexai-sdk-test-data/mock-responses/**/*.{txt,json}",
+        "FirebaseVertexAI/Tests/Unit/Resources/**/*"
       ]
     }
   ],
