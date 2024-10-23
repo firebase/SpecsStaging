@@ -56,7 +56,7 @@
       "~> 11.0"
     ],
     "FirebaseCore": [
-      "~> 11.0"
+      "11.5"
     ],
     "GoogleUtilities/AppDelegateSwizzler": [
       "~> 8.0"
