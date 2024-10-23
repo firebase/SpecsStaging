@@ -35,10 +35,10 @@
       "~> 11.0"
     ],
     "FirebaseCore": [
-      "~> 11.4"
+      "11.5"
     ],
     "FirebaseCoreExtension": [
-      "~> 11.4"
+      "11.5"
     ],
     "GTMSessionFetcher/Core": [
       ">= 3.4",
