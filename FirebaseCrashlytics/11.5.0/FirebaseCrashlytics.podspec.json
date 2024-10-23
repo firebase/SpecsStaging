@@ -46,7 +46,7 @@
   "prepare_command": "cp -f ./Crashlytics/run ./run\ncp -f ./Crashlytics/upload-symbols ./upload-symbols\ncp -f ./Crashlytics/CrashlyticsInputFiles.xcfilelist ./CrashlyticsInputFiles.xcfilelist",
   "dependencies": {
     "FirebaseCore": [
-      "~> 11.4"
+      "11.5"
     ],
     "FirebaseInstallations": [
       "~> 11.0"
