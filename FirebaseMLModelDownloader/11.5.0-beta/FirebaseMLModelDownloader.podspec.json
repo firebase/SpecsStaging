@@ -29,10 +29,10 @@
   "frameworks": "Foundation",
   "dependencies": {
     "FirebaseCore": [
-      "~> 11.4"
+      "11.5"
     ],
     "FirebaseCoreExtension": [
-      "~> 11.4"
+      "11.5"
     ],
     "FirebaseInstallations": [
       "~> 11.0"
