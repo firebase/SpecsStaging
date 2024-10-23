@@ -36,7 +36,7 @@
   "frameworks": "Security",
   "dependencies": {
     "FirebaseCore": [
-      "~> 11.0"
+      "11.5"
     ],
     "PromisesObjC": [
       "~> 2.4"
