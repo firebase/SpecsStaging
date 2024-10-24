@@ -27,7 +27,6 @@
     "Crashlytics/Protogen/**/*.{c,h,m,mm}",
     "Crashlytics/Shared/**/*.{c,h,m,mm}",
     "Crashlytics/third_party/**/*.{c,h,m,mm}",
-    "FirebaseCore/Extension/*.h",
     "FirebaseInstallations/Source/Library/Private/*.h",
     "Interop/Analytics/Public/*.h"
   ],
@@ -46,6 +45,9 @@
   "prepare_command": "cp -f ./Crashlytics/run ./run\ncp -f ./Crashlytics/upload-symbols ./upload-symbols\ncp -f ./Crashlytics/CrashlyticsInputFiles.xcfilelist ./CrashlyticsInputFiles.xcfilelist",
   "dependencies": {
     "FirebaseCore": [
+      "11.5"
+    ],
+    "FirebaseCoreExtension": [
       "11.5"
     ],
     "FirebaseInstallations": [
