@@ -58,10 +58,10 @@
       "~> 11.0"
     ],
     "FirebaseCore": [
-      "11.6.0"
+      "~> 11.6.0"
     ],
     "FirebaseCoreExtension": [
-      "11.6.0"
+      "~> 11.6.0"
     ],
     "GoogleUtilities/AppDelegateSwizzler": [
       "~> 8.0"
