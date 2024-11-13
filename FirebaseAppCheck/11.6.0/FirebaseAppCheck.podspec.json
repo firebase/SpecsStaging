@@ -45,7 +45,7 @@
       "~> 11.0"
     ],
     "FirebaseCore": [
-      "11.6.0"
+      "~> 11.6.0"
     ],
     "GoogleUtilities/Environment": [
       "~> 8.0"
