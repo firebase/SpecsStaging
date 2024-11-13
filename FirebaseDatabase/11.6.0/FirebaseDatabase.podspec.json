@@ -68,7 +68,7 @@
       "~> 1.22"
     ],
     "FirebaseCore": [
-      "11.6.0"
+      "~> 11.6.0"
     ],
     "FirebaseAppCheckInterop": [
       "~> 11.0"
