@@ -52,7 +52,7 @@
       "~> 8.0"
     ],
     "FirebaseCoreInternal": [
-      "11.6.0"
+      "~> 11.6.0"
     ]
   },
   "pod_target_xcconfig": {
