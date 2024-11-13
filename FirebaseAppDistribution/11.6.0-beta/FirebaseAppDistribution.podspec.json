@@ -27,7 +27,7 @@
   "public_header_files": "FirebaseAppDistribution/Sources/Public/FirebaseAppDistribution/*.h",
   "dependencies": {
     "FirebaseCore": [
-      "11.6.0"
+      "~> 11.6.0"
     ],
     "GoogleUtilities/AppDelegateSwizzler": [
       "~> 8.0"
