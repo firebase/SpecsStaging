@@ -33,7 +33,7 @@
   "weak_frameworks": "WebKit",
   "dependencies": {
     "FirebaseCore": [
-      "11.6.0"
+      "~> 11.6.0"
     ]
   },
   "pod_target_xcconfig": {
