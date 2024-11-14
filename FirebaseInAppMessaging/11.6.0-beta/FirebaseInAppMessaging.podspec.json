@@ -73,7 +73,7 @@
   "frameworks": "UIKit",
   "dependencies": {
     "FirebaseCore": [
-      "11.6.0"
+      "~> 11.6.0"
     ],
     "FirebaseInstallations": [
       "~> 11.0"
