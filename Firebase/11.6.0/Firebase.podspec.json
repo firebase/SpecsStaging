@@ -66,7 +66,7 @@
       "name": "CoreOnly",
       "dependencies": {
         "FirebaseCore": [
-          "11.6.0"
+          "~> 11.6.0"
         ]
       },
       "source_files": "CoreOnly/Sources/Firebase.h",
