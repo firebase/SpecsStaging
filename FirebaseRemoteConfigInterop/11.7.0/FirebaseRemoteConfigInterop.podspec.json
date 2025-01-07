@@ -2,7 +2,7 @@
   "name": "FirebaseRemoteConfigInterop",
   "version": "11.7.0",
   "summary": "Interfaces that allow other Firebase SDKs to use Remote Config functionality.",
-  "description": "Not for public use.\nA set of protocols that other Firebase SDKs can use to interoperate with FirebaseRemoetConfig in a safe\nand reliable manner.",
+  "description": "Not for public use.\nA set of protocols that other Firebase SDKs can use to interoperate with FirebaseRemoteConfig in a safe\nand reliable manner.",
   "homepage": "https://firebase.google.com",
   "license": {
     "type": "Apache-2.0",
