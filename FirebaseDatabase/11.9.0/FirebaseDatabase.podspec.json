@@ -26,6 +26,7 @@
   "source_files": [
     "FirebaseDatabase/Sources/**/*.[mh]",
     "FirebaseDatabase/Sources/third_party/Wrap-leveldb/APLevelDB.mm",
+    "FirebaseDatabase/Sources/third_party/SocketRocket/fbase64.c",
     "FirebaseDatabase/Swift/Sources/**/*.swift",
     "FirebaseAuth/Interop/**/*.h",
     "FirebaseCore/Extension/*.h"
