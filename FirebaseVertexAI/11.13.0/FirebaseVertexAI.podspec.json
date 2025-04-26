@@ -40,16 +40,7 @@
     "frameworks": "WatchKit"
   },
   "dependencies": {
-    "FirebaseAppCheckInterop": [
-      "~> 11.4"
-    ],
-    "FirebaseAuthInterop": [
-      "~> 11.4"
-    ],
-    "FirebaseCore": [
-      "~> 11.13.0"
-    ],
-    "FirebaseCoreExtension": [
+    "FirebaseAI": [
       "~> 11.13.0"
     ]
   },
@@ -67,10 +58,6 @@
       },
       "source_files": [
         "FirebaseVertexAI/Tests/Unit/**/*.swift"
-      ],
-      "resources": [
-        "FirebaseVertexAI/Tests/Unit/vertexai-sdk-test-data/mock-responses/vertexai",
-        "FirebaseVertexAI/Tests/Unit/Resources/**/*"
       ]
     }
   ],
