@@ -53,10 +53,10 @@
       "~> 11.0"
     ],
     "GoogleUtilities/Environment": [
-      "~> 8.0"
+      "~> 8.1"
     ],
     "GoogleUtilities/NSData+zlib": [
-      "~> 8.0"
+      "~> 8.1"
     ],
     "FirebaseRemoteConfigInterop": [
       "~> 11.0"
