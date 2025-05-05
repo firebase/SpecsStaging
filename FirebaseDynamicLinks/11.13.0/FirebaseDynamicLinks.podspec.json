@@ -60,10 +60,10 @@
       "dependencies": {
         "OCMock": [],
         "GoogleUtilities/MethodSwizzler": [
-          "~> 8.0"
+          "~> 8.1"
         ],
         "GoogleUtilities/SwizzlerTestHelpers": [
-          "~> 8.0"
+          "~> 8.1"
         ]
       }
     }
