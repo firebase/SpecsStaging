@@ -78,7 +78,7 @@
       "~> 11.0"
     ],
     "GoogleUtilities/UserDefaults": [
-      "~> 8.0"
+      "~> 8.1"
     ]
   },
   "pod_target_xcconfig": {
