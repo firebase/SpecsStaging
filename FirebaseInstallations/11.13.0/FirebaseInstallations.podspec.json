@@ -42,10 +42,10 @@
       "~> 2.4"
     ],
     "GoogleUtilities/Environment": [
-      "~> 8.0"
+      "~> 8.1"
     ],
     "GoogleUtilities/UserDefaults": [
-      "~> 8.0"
+      "~> 8.1"
     ]
   },
   "pod_target_xcconfig": {
