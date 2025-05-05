@@ -72,7 +72,7 @@
         "FirebaseAI/Tests/Unit/Snippets/**/*.swift"
       ],
       "resources": [
-        "FirebaseAI/Tests/Unit/vertexai-sdk-test-data/mock-responses/vertexai",
+        "FirebaseAI/Tests/Unit/vertexai-sdk-test-data/mock-responses",
         "FirebaseAI/Tests/Unit/Resources/**/*"
       ]
     }
