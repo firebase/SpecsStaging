@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "FirebaseAI": [
-      "~> 11.13.0"
+      "~> 11.14.0"
     ]
   },
   "testspecs": [
