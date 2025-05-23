@@ -48,12 +48,39 @@
       "~> 3.30910.0"
     ]
   },
-  "default_subspecs": "AdIdSupport",
+  "default_subspecs": "Default",
   "subspecs": [
+    {
+      "name": "Default",
+      "dependencies": {
+        "GoogleAppMeasurement/Default": [
+          "11.14.0"
+        ]
+      },
+      "vendored_frameworks": "Frameworks/FirebaseAnalytics.xcframework"
+    },
+    {
+      "name": "Core",
+      "dependencies": {
+        "GoogleAppMeasurement/Core": [
+          "11.14.0"
+        ]
+      },
+      "vendored_frameworks": "Frameworks/FirebaseAnalytics.xcframework"
+    },
+    {
+      "name": "IdentitySupport",
+      "dependencies": {
+        "GoogleAppMeasurement/IdentitySupport": [
+          "11.14.0"
+        ]
+      },
+      "vendored_frameworks": "Frameworks/FirebaseAnalytics.xcframework"
+    },
     {
       "name": "AdIdSupport",
       "dependencies": {
-        "GoogleAppMeasurement": [
+        "GoogleAppMeasurement/AdIdSupport": [
           "11.14.0"
         ]
       },
