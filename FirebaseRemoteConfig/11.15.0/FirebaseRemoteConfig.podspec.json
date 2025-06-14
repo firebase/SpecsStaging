@@ -36,7 +36,6 @@
     "FirebaseRemoteConfig_Privacy": "FirebaseRemoteConfig/Swift/Resources/PrivacyInfo.xcprivacy"
   },
   "pod_target_xcconfig": {
-    "GCC_C_LANGUAGE_STANDARD": "c99",
     "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}\""
   },
   "dependencies": {
