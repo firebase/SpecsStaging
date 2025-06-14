@@ -48,7 +48,6 @@
     ]
   },
   "pod_target_xcconfig": {
-    "GCC_C_LANGUAGE_STANDARD": "c99",
     "GCC_PREPROCESSOR_DEFINITIONS": "FIRMLModelDownloader_VERSION=11.15.0-beta",
     "OTHER_CFLAGS": "-fno-autolink"
   },
