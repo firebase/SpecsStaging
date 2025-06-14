@@ -80,7 +80,6 @@
       "SystemConfiguration"
     ],
     "pod_target_xcconfig": {
-      "GCC_C_LANGUAGE_STANDARD": "c99",
       "GCC_PREPROCESSOR_DEFINITIONS": "CLS_SDK_NAME=\"Crashlytics iOS SDK\" PB_FIELD_32BIT=1 PB_NO_PACKED_STRUCTS=1 PB_ENABLE_MALLOC=1",
       "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}\""
     }
@@ -91,7 +90,6 @@
       "SystemConfiguration"
     ],
     "pod_target_xcconfig": {
-      "GCC_C_LANGUAGE_STANDARD": "c99",
       "GCC_PREPROCESSOR_DEFINITIONS": "CLS_SDK_NAME=\"Crashlytics Mac SDK\" PB_FIELD_32BIT=1 PB_NO_PACKED_STRUCTS=1 PB_ENABLE_MALLOC=1",
       "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}\""
     }
@@ -99,7 +97,6 @@
   "watchos": {
     "frameworks": "Security",
     "pod_target_xcconfig": {
-      "GCC_C_LANGUAGE_STANDARD": "c99",
       "GCC_PREPROCESSOR_DEFINITIONS": "CLS_SDK_NAME=\"Crashlytics watchOS SDK\" PB_FIELD_32BIT=1 PB_NO_PACKED_STRUCTS=1 PB_ENABLE_MALLOC=1",
       "OTHER_LD_FLAGS": "$(inherited) -sectcreate __TEXT __info_plist",
       "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}\""
@@ -107,7 +104,6 @@
   },
   "tvos": {
     "pod_target_xcconfig": {
-      "GCC_C_LANGUAGE_STANDARD": "c99",
       "GCC_PREPROCESSOR_DEFINITIONS": "CLS_SDK_NAME=\"Crashlytics tvOS SDK\" PB_FIELD_32BIT=1 PB_NO_PACKED_STRUCTS=1 PB_ENABLE_MALLOC=1",
       "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}\""
     }
