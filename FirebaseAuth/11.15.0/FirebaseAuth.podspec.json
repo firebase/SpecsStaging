@@ -37,7 +37,6 @@
     "FirebaseAuth/CHANGELOG.md"
   ],
   "pod_target_xcconfig": {
-    "GCC_C_LANGUAGE_STANDARD": "c99",
     "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}\" \"${OBJECT_FILE_DIR_normal}/${NATIVE_ARCH_ACTUAL}\"",
     "OTHER_SWIFT_FLAGS": "$(inherited) "
   },
