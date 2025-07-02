@@ -15,8 +15,8 @@
   },
   "social_media_url": "https://twitter.com/Firebase",
   "platforms": {
-    "ios": "13.0",
-    "tvos": "13.0"
+    "ios": "15.0",
+    "tvos": "15.0"
   },
   "swift_versions": "5.9",
   "cocoapods_version": ">= 1.12.0",
@@ -76,10 +76,10 @@
       "~> 12.0.0"
     ],
     "FirebaseInstallations": [
-      "~> 12.0"
+      "~> 12.0.0"
     ],
     "FirebaseABTesting": [
-      "~> 12.0"
+      "~> 12.0.0"
     ],
     "GoogleUtilities/Environment": [
       "~> 8.1"
