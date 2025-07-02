@@ -20,9 +20,9 @@
   ],
   "social_media_url": "https://twitter.com/Firebase",
   "platforms": {
-    "ios": "12.0",
+    "ios": "15.0",
     "osx": "10.15",
-    "tvos": "13.0"
+    "tvos": "15.0"
   },
   "cocoapods_version": ">= 1.12.0",
   "swift_versions": "5.9",
@@ -31,9 +31,9 @@
     {
       "name": "Core",
       "platforms": {
-        "ios": "12.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0"
+        "tvos": "15.0"
       },
       "ios": {
         "dependencies": {
@@ -73,46 +73,21 @@
         "HEADER_SEARCH_PATHS": "$(inherited) ${PODS_ROOT}/Firebase/CoreOnly/Sources"
       },
       "platforms": {
-        "ios": "12.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0",
+        "tvos": "15.0",
         "watchos": "7.0"
       }
     },
     {
       "name": "Analytics",
       "platforms": {
-        "ios": "12.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0"
+        "tvos": "15.0"
       },
       "dependencies": {
         "Firebase/Core": []
-      }
-    },
-    {
-      "name": "AnalyticsWithAdIdSupport",
-      "platforms": {
-        "ios": "12.0",
-        "osx": "10.15",
-        "tvos": "13.0"
-      },
-      "dependencies": {
-        "Firebase/Core": []
-      }
-    },
-    {
-      "name": "AnalyticsWithoutAdIdSupport",
-      "platforms": {
-        "ios": "12.0",
-        "osx": "10.15",
-        "tvos": "13.0"
-      },
-      "dependencies": {
-        "FirebaseAnalytics/WithoutAdIdSupport": [
-          "~> 12.0.0"
-        ],
-        "Firebase/CoreOnly": []
       }
     },
     {
@@ -124,9 +99,9 @@
         ]
       },
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0",
+        "tvos": "15.0",
         "watchos": "7.0"
       }
     },
@@ -143,7 +118,7 @@
         }
       },
       "platforms": {
-        "ios": "13.0"
+        "ios": "15.0"
       }
     },
     {
@@ -155,9 +130,9 @@
         ]
       },
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0",
+        "tvos": "15.0",
         "watchos": "7.0"
       }
     },
@@ -170,9 +145,9 @@
         ]
       },
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0",
+        "tvos": "15.0",
         "watchos": "7.0"
       }
     },
@@ -185,9 +160,9 @@
         ]
       },
       "platforms": {
-        "ios": "12.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0",
+        "tvos": "15.0",
         "watchos": "7.0"
       }
     },
@@ -200,9 +175,9 @@
         ]
       },
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0",
+        "tvos": "15.0",
         "watchos": "7.0"
       }
     },
@@ -215,9 +190,8 @@
         ]
       },
       "platforms": {
-        "ios": "13.0",
-        "osx": "10.15",
-        "tvos": "13.0"
+        "ios": "15.0",
+        "osx": "10.15"
       }
     },
     {
@@ -229,9 +203,9 @@
         ]
       },
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0",
+        "tvos": "15.0",
         "watchos": "7.0"
       }
     },
@@ -255,8 +229,8 @@
         }
       },
       "platforms": {
-        "ios": "13.0",
-        "tvos": "13.0"
+        "ios": "15.0",
+        "tvos": "15.0"
       }
     },
     {
@@ -277,9 +251,9 @@
         ]
       },
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0",
+        "tvos": "15.0",
         "watchos": "7.0"
       }
     },
@@ -292,9 +266,9 @@
         ]
       },
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0",
+        "tvos": "15.0",
         "watchos": "7.0"
       }
     },
@@ -318,8 +292,8 @@
         }
       },
       "platforms": {
-        "ios": "13.0",
-        "tvos": "13.0"
+        "ios": "15.0",
+        "tvos": "15.0"
       }
     },
     {
@@ -331,9 +305,9 @@
         ]
       },
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0",
+        "tvos": "15.0",
         "watchos": "7.0"
       }
     },
@@ -346,9 +320,9 @@
         ]
       },
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0",
+        "tvos": "15.0",
         "watchos": "7.0"
       }
     }
