@@ -16,8 +16,8 @@
   "social_media_url": "https://twitter.com/Firebase",
   "swift_versions": "5.9",
   "platforms": {
-    "ios": "13.0",
-    "tvos": "13.0"
+    "ios": "15.0",
+    "tvos": "15.0"
   },
   "cocoapods_version": ">= 1.12.0",
   "prefix_header_file": false,
@@ -45,13 +45,13 @@
       "~> 12.0.0"
     ],
     "FirebaseInstallations": [
-      "~> 12.0"
+      "~> 12.0.0"
     ],
     "FirebaseRemoteConfig": [
-      "~> 12.0"
+      "~> 12.0.0"
     ],
     "FirebaseSessions": [
-      "~> 12.0"
+      "~> 12.0.0"
     ],
     "GoogleDataTransport": [
       "~> 10.1"
@@ -74,8 +74,8 @@
       "name": "unit",
       "test_type": "unit",
       "platforms": {
-        "ios": "13.0",
-        "tvos": "13.0"
+        "ios": "15.0",
+        "tvos": "15.0"
       },
       "scheme": {
         "code_coverage": true
@@ -111,8 +111,8 @@
     {
       "name": "TestApp",
       "platforms": {
-        "ios": "13.0",
-        "tvos": "13.0"
+        "ios": "15.0",
+        "tvos": "15.0"
       },
       "source_files": [
         "FirebasePerformance/Tests/TestApp/Source/**/*.{m,h}"
