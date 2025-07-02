@@ -16,9 +16,9 @@
   "social_media_url": "https://twitter.com/Firebase",
   "swift_versions": "5.9",
   "platforms": {
-    "ios": "13.0",
+    "ios": "15.0",
     "osx": "10.15",
-    "tvos": "13.0",
+    "tvos": "15.0",
     "watchos": "7.0"
   },
   "cocoapods_version": ">= 1.12.0",
@@ -40,16 +40,16 @@
   },
   "dependencies": {
     "FirebaseABTesting": [
-      "~> 12.0"
+      "~> 12.0.0"
     ],
     "FirebaseSharedSwift": [
-      "~> 12.0"
+      "~> 12.0.0"
     ],
     "FirebaseCore": [
       "~> 12.0.0"
     ],
     "FirebaseInstallations": [
-      "~> 12.0"
+      "~> 12.0.0"
     ],
     "GoogleUtilities/Environment": [
       "~> 8.1"
@@ -58,7 +58,7 @@
       "~> 8.1"
     ],
     "FirebaseRemoteConfigInterop": [
-      "~> 12.0"
+      "~> 12.0.0"
     ]
   },
   "testspecs": [
@@ -69,9 +69,9 @@
         "code_coverage": true
       },
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0"
+        "tvos": "15.0"
       },
       "source_files": [
         "FirebaseRemoteConfig/Tests/Unit/FIRRemoteConfigComponentTest.m",
@@ -105,9 +105,9 @@
         "code_coverage": true
       },
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0"
+        "tvos": "15.0"
       },
       "source_files": [
         "FirebaseRemoteConfig/Tests/Swift/SwiftAPI/*.swift",
@@ -135,9 +135,9 @@
         "code_coverage": true
       },
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0"
+        "tvos": "15.0"
       },
       "source_files": [
         "FirebaseRemoteConfig/Tests/Swift/SwiftAPI/*.swift",
