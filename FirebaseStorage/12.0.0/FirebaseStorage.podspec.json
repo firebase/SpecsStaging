@@ -15,9 +15,9 @@
   },
   "social_media_url": "https://twitter.com/Firebase",
   "platforms": {
-    "ios": "13.0",
+    "ios": "15.0",
     "osx": "10.15",
-    "tvos": "13.0",
+    "tvos": "15.0",
     "watchos": "7.0"
   },
   "swift_versions": "5.9",
@@ -29,10 +29,10 @@
   ],
   "dependencies": {
     "FirebaseAppCheckInterop": [
-      "~> 12.0"
+      "~> 12.0.0"
     ],
     "FirebaseAuthInterop": [
-      "~> 12.0"
+      "~> 12.0.0"
     ],
     "FirebaseCore": [
       "~> 12.0.0"
@@ -56,9 +56,9 @@
         "code_coverage": true
       },
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0"
+        "tvos": "15.0"
       },
       "source_files": [
         "FirebaseStorage/Tests/ObjCIntegration/*.{m,mm}"
@@ -70,7 +70,7 @@
       ],
       "dependencies": {
         "FirebaseAuth": [
-          "~> 12.0"
+          "~> 12.0.0"
         ]
       },
       "pod_target_xcconfig": {
@@ -84,9 +84,9 @@
         "code_coverage": true
       },
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0"
+        "tvos": "15.0"
       },
       "source_files": "FirebaseStorage/Tests/Unit/StorageAPITests.swift",
       "requires_app_host": true
@@ -98,9 +98,9 @@
         "code_coverage": true
       },
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0"
+        "tvos": "15.0"
       },
       "source_files": "FirebaseStorage/Tests/Integration/*.swift",
       "requires_app_host": true,
@@ -111,7 +111,7 @@
       ],
       "dependencies": {
         "FirebaseAuth": [
-          "~> 12.0"
+          "~> 12.0.0"
         ]
       }
     }
