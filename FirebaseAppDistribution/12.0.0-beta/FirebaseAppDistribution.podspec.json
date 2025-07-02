@@ -14,7 +14,7 @@
     "tag": "CocoaPods-12.0.0-beta"
   },
   "platforms": {
-    "ios": "13.0"
+    "ios": "15.0"
   },
   "swift_versions": "5.9",
   "cocoapods_version": ">= 1.12.0",
@@ -36,7 +36,7 @@
       "~> 8.1"
     ],
     "FirebaseInstallations": [
-      "~> 12.0"
+      "~> 12.0.0"
     ]
   },
   "pod_target_xcconfig": {
