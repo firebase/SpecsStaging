@@ -16,9 +16,9 @@
   "social_media_url": "https://twitter.com/Firebase",
   "swift_versions": "5.9",
   "platforms": {
-    "ios": "13.0",
+    "ios": "15.0",
     "osx": "10.15",
-    "tvos": "13.0",
+    "tvos": "15.0",
     "watchos": "7.0"
   },
   "cocoapods_version": ">= 1.12.0",
@@ -72,10 +72,10 @@
       "~> 12.0.0"
     ],
     "FirebaseAppCheckInterop": [
-      "~> 12.0"
+      "~> 12.0.0"
     ],
     "FirebaseSharedSwift": [
-      "~> 12.0"
+      "~> 12.0.0"
     ],
     "GoogleUtilities/UserDefaults": [
       "~> 8.1"
@@ -89,9 +89,9 @@
       "name": "unit",
       "test_type": "unit",
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0"
+        "tvos": "15.0"
       },
       "scheme": {
         "code_coverage": true
@@ -107,7 +107,7 @@
       ],
       "dependencies": {
         "FirebaseAppCheckInterop": [
-          "~> 12.0"
+          "~> 12.0.0"
         ],
         "OCMock": []
       },
@@ -120,9 +120,9 @@
       "name": "integration",
       "test_type": "unit",
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0"
+        "tvos": "15.0"
       },
       "scheme": {
         "code_coverage": true
