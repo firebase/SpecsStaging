@@ -15,9 +15,9 @@
   },
   "social_media_url": "https://twitter.com/Firebase",
   "platforms": {
-    "ios": "12.0",
+    "ios": "15.0",
     "osx": "10.15",
-    "tvos": "13.0",
+    "tvos": "15.0",
     "watchos": "7.0"
   },
   "source_files": [
@@ -40,9 +40,9 @@
         "code_coverage": true
       },
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0"
+        "tvos": "15.0"
       },
       "source_files": [
         "FirebaseCore/Internal/Tests/Unit/**/*.swift",
@@ -57,9 +57,9 @@
         "code_coverage": true
       },
       "platforms": {
-        "ios": "12.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0"
+        "tvos": "15.0"
       },
       "source_files": [
         "FirebaseCore/Internal/Tests/Integration/**/*.swift",
