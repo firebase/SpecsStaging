@@ -14,9 +14,9 @@
     "tag": "CocoaPods-12.0.0"
   },
   "platforms": {
-    "ios": "13.0",
+    "ios": "15.0",
     "osx": "10.15",
-    "tvos": "13.0"
+    "tvos": "15.0"
   },
   "swift_versions": "5.9",
   "cocoapods_version": ">= 1.12.0",
@@ -24,7 +24,6 @@
   "public_header_files": "Firestore/Source/Public/FirebaseFirestore/*.h",
   "source_files": [
     "FirebaseCore/Extension/*.h",
-    "FirebaseCore/Sources/FIROptionsInternal.h",
     "Firestore/Source/Public/FirebaseFirestore/*.h",
     "Firestore/Source/**/*.{m,mm}",
     "Firestore/Protos/nanopb/**/*.cc",
@@ -60,7 +59,7 @@
   },
   "dependencies": {
     "FirebaseAppCheckInterop": [
-      "~> 12.0"
+      "~> 12.0.0"
     ],
     "FirebaseCore": [
       "~> 12.0.0"
