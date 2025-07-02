@@ -15,9 +15,9 @@
   },
   "social_media_url": "https://twitter.com/Firebase",
   "platforms": {
-    "ios": "13.0",
+    "ios": "15.0",
     "osx": "10.15",
-    "tvos": "13.0",
+    "tvos": "15.0",
     "watchos": "7.0"
   },
   "source_files": "FirebaseAppCheck/Interop/**/*.[hm]",
@@ -27,9 +27,9 @@
       "name": "objc-unit",
       "test_type": "unit",
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0"
+        "tvos": "15.0"
       },
       "source_files": [
         "FirebaseAppCheck/Tests/Interop/ObjC/**/*.[hm]"
@@ -39,9 +39,9 @@
       "name": "swift-unit",
       "test_type": "unit",
       "platforms": {
-        "ios": "13.0",
+        "ios": "15.0",
         "osx": "10.15",
-        "tvos": "13.0"
+        "tvos": "15.0"
       },
       "source_files": [
         "FirebaseAppCheck/Tests/Interop/Swift/**/*.swift"
