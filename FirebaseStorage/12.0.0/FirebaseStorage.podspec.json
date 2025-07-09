@@ -42,7 +42,7 @@
     ],
     "GTMSessionFetcher/Core": [
       ">= 3.4",
-      "< 5.0"
+      "< 6.0"
     ],
     "GoogleUtilities/Environment": [
       "~> 8.1"
