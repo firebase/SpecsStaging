@@ -10,7 +10,7 @@
   },
   "authors": "Google, Inc.",
   "source": {
-    "http": "https://dl.google.com/firebase/ios/analytics/47d80ee1ff340179/GoogleAppMeasurement-12.2.0.tar.gz"
+    "http": "https://dl.google.com/firebase/ios/analytics/1c0181b69fa16f29/GoogleAppMeasurement-12.3.0.tar.gz"
   },
   "cocoapods_version": ">= 1.12.0",
   "platforms": {
@@ -56,7 +56,7 @@
       "ios": {
         "dependencies": {
           "GoogleAdsOnDeviceConversion": [
-            "2.3.0"
+            "~> 3.0.0"
           ]
         }
       }
