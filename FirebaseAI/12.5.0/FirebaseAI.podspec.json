@@ -23,7 +23,7 @@
   "cocoapods_version": ">= 1.12.0",
   "prefix_header_file": false,
   "source_files": [
-    "FirebaseAI/Sources/**/*.swift"
+    "FirebaseAI/Wrapper/Sources/**/*.swift"
   ],
   "swift_versions": "5.9",
   "frameworks": "Foundation",
@@ -40,16 +40,10 @@
     "frameworks": "WatchKit"
   },
   "dependencies": {
-    "FirebaseAppCheckInterop": [
-      "~> 12.5.0"
-    ],
-    "FirebaseAuthInterop": [
-      "~> 12.5.0"
+    "FirebaseAILogic": [
+      "12.5.0"
     ],
     "FirebaseCore": [
-      "~> 12.5.0"
-    ],
-    "FirebaseCoreExtension": [
       "~> 12.5.0"
     ]
   },
@@ -66,14 +60,7 @@
         "tvos": "15.0"
       },
       "source_files": [
-        "FirebaseAI/Tests/Unit/**/*.swift"
-      ],
-      "exclude_files": [
-        "FirebaseAI/Tests/Unit/Snippets/**/*.swift"
-      ],
-      "resources": [
-        "FirebaseAI/Tests/Unit/vertexai-sdk-test-data/mock-responses",
-        "FirebaseAI/Tests/Unit/Resources/**/*"
+        "FirebaseAI/Wrapper/Tests/**/*.swift"
       ]
     }
   ],
