@@ -26,6 +26,9 @@
   "resource_bundles": {
     "FirebaseCoreExtension_Privacy": "FirebaseCore/Extension/Resources/PrivacyInfo.xcprivacy"
   },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
   "dependencies": {
     "FirebaseCore": [
       "~> 12.7.0"
