@@ -37,18 +37,11 @@
     "FirebaseInstallations": [
       "~> 12.8.0"
     ],
-    "GoogleDataTransport": [
-      "~> 10.1"
-    ],
     "GoogleUtilities/UserDefaults": [
       "~> 8.1"
-    ],
-    "SwiftProtobuf": [
-      "~> 1.19"
     ]
   },
   "pod_target_xcconfig": {
-    "GCC_PREPROCESSOR_DEFINITIONS": "FIRMLModelDownloader_VERSION=12.8.0-beta",
     "OTHER_CFLAGS": "-fno-autolink"
   },
   "testspecs": [
