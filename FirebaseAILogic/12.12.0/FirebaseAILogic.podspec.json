@@ -28,10 +28,16 @@
   "swift_versions": "6.0",
   "frameworks": "Foundation",
   "ios": {
-    "frameworks": "UIKit"
+    "frameworks": "UIKit",
+    "pod_target_xcconfig": {
+      "OTHER_SWIFT_FLAGS": "$(inherited) -D IS_FOUNDATION_MODELS_SUPPORTED_PLATFORM"
+    }
   },
   "osx": {
-    "frameworks": "AppKit"
+    "frameworks": "AppKit",
+    "pod_target_xcconfig": {
+      "OTHER_SWIFT_FLAGS": "$(inherited) -D IS_FOUNDATION_MODELS_SUPPORTED_PLATFORM"
+    }
   },
   "tvos": {
     "frameworks": "UIKit"
