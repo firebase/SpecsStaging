@@ -80,7 +80,17 @@
       "resources": [
         "FirebaseAI/Tests/Unit/vertexai-sdk-test-data/mock-responses",
         "FirebaseAI/Tests/Unit/Resources/**/*"
-      ]
+      ],
+      "ios": {
+        "pod_target_xcconfig": {
+          "OTHER_SWIFT_FLAGS": "$(inherited) -D IS_FOUNDATION_MODELS_SUPPORTED_PLATFORM"
+        }
+      },
+      "osx": {
+        "pod_target_xcconfig": {
+          "OTHER_SWIFT_FLAGS": "$(inherited) -D IS_FOUNDATION_MODELS_SUPPORTED_PLATFORM"
+        }
+      }
     }
   ],
   "swift_version": "6.0"
