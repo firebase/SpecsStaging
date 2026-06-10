@@ -46,6 +46,9 @@
     "frameworks": "WatchKit"
   },
   "dependencies": {
+    "FirebaseAppCheck": [
+      "~> 12.15.0"
+    ],
     "FirebaseAppCheckInterop": [
       "~> 12.15.0"
     ],
