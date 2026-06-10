@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "AppCheckCore": [
-      "~> 11.0"
+      "~> 11.3"
     ],
     "FirebaseAppCheckInterop": [
       "~> 12.15.0"
@@ -101,8 +101,12 @@
         "tvos": "15.0"
       },
       "source_files": [
-        "FirebaseAppCheck/Tests/Unit/Swift/**/*.swift"
+        "FirebaseAppCheck/Tests/Unit/Swift/**/*.swift",
+        "SharedTestUtilities/ExceptionCatcher.[mh]"
       ],
+      "pod_target_xcconfig": {
+        "SWIFT_OBJC_BRIDGING_HEADER": "$(PODS_TARGET_SRCROOT)/FirebaseAppCheck/Tests/Unit/Swift/FirebaseAppCheck-unit-Bridging-Header.h"
+      },
       "dependencies": {
         "FirebaseCoreExtension": [
           "~> 12.15.0"
