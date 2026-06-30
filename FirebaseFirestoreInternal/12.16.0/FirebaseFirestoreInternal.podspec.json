@@ -105,16 +105,21 @@
   "ios": {
     "frameworks": [
       "SystemConfiguration",
-      "UIKit"
+      "UIKit",
+      "Network"
     ]
   },
   "osx": {
-    "frameworks": "SystemConfiguration"
+    "frameworks": [
+      "SystemConfiguration",
+      "Network"
+    ]
   },
   "tvos": {
     "frameworks": [
       "SystemConfiguration",
-      "UIKit"
+      "UIKit",
+      "Network"
     ]
   },
   "libraries": "c++",
