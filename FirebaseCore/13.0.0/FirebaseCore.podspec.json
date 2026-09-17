@@ -47,10 +47,12 @@
   },
   "dependencies": {
     "GoogleUtilities/Environment": [
-      "~> 8.1"
+      ">= 8.1.3",
+      "< 9.0"
     ],
     "GoogleUtilities/Logger": [
-      "~> 8.1"
+      ">= 8.1.3",
+      "< 9.0"
     ],
     "FirebaseCoreInternal": [
       "~> 13.0.0"
