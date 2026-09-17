@@ -54,7 +54,8 @@
       "~> 13.0.0"
     ],
     "GoogleDataTransport": [
-      "~> 10.1"
+      ">= 10.1.1",
+      "< 11.0"
     ],
     "GoogleUtilities/Environment": [
       ">= 8.1.3",
