@@ -26,16 +26,20 @@
   "frameworks": "StoreKit",
   "dependencies": {
     "GoogleUtilities/AppDelegateSwizzler": [
-      "~> 8.1"
+      ">= 8.1.3",
+      "< 9.0"
     ],
     "GoogleUtilities/MethodSwizzler": [
-      "~> 8.1"
+      ">= 8.1.3",
+      "< 9.0"
     ],
     "GoogleUtilities/NSData+zlib": [
-      "~> 8.1"
+      ">= 8.1.3",
+      "< 9.0"
     ],
     "GoogleUtilities/Network": [
-      "~> 8.1"
+      ">= 8.1.3",
+      "< 9.0"
     ],
     "nanopb": [
       "~> 3.30910.0"
