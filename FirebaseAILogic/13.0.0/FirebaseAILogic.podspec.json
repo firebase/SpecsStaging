@@ -45,6 +45,9 @@
   "watchos": {
     "frameworks": "WatchKit"
   },
+  "pod_target_xcconfig": {
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.google.firebase.FirebaseAILogic"
+  },
   "dependencies": {
     "FirebaseAppCheck": [
       "~> 13.0.0"
