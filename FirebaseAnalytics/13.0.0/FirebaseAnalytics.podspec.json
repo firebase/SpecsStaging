@@ -25,6 +25,9 @@
     "z"
   ],
   "frameworks": "StoreKit",
+  "pod_target_xcconfig": {
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.google.firebase.FirebaseAnalytics"
+  },
   "dependencies": {
     "FirebaseCore": [
       "~> 13.0.0"
