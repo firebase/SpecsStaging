@@ -27,7 +27,8 @@
     "FirebaseCoreExtension_Privacy": "FirebaseCore/Extension/Resources/PrivacyInfo.xcprivacy"
   },
   "pod_target_xcconfig": {
-    "DEFINES_MODULE": "YES"
+    "DEFINES_MODULE": "YES",
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.google.firebase.FirebaseCoreExtension"
   },
   "dependencies": {
     "FirebaseCore": [
