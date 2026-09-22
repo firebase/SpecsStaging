@@ -128,7 +128,8 @@
     "CLANG_CXX_LANGUAGE_STANDARD": "c++17",
     "CLANG_CXX_LIBRARY": "libc++",
     "GCC_PREPROCESSOR_DEFINITIONS": "FIRFirestore_VERSION=13.0.0 PB_FIELD_32BIT=1 PB_NO_PACKED_STRUCTS=1 PB_ENABLE_MALLOC=1",
-    "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}\" \"${PODS_TARGET_SRCROOT}/Firestore/Source/Public\" \"${PODS_ROOT}/nanopb\" \"${PODS_TARGET_SRCROOT}/Firestore/Protos/nanopb\" \"${PODS_TARGET_SRCROOT}/Firestore/third_party/re2\" "
+    "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}\" \"${PODS_TARGET_SRCROOT}/Firestore/Source/Public\" \"${PODS_ROOT}/nanopb\" \"${PODS_TARGET_SRCROOT}/Firestore/Protos/nanopb\" \"${PODS_TARGET_SRCROOT}/Firestore/third_party/re2\" ",
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.google.firebase.FirebaseFirestoreInternal"
   },
   "compiler_flags": "$(inherited) -Wreorder -Werror=reorder -Wno-comma",
   "swift_version": "5.9"
