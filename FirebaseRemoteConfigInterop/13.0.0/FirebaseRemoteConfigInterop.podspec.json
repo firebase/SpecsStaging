@@ -24,5 +24,8 @@
     "watchos": "8.0"
   },
   "source_files": "FirebaseRemoteConfig/Interop/*.swift",
+  "pod_target_xcconfig": {
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.google.firebase.FirebaseRemoteConfigInterop"
+  },
   "swift_version": "5.9"
 }
