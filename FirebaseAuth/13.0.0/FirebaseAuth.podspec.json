@@ -38,7 +38,8 @@
   ],
   "pod_target_xcconfig": {
     "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}\" \"${OBJECT_FILE_DIR_normal}/${NATIVE_ARCH_ACTUAL}\"",
-    "OTHER_SWIFT_FLAGS": "$(inherited) "
+    "OTHER_SWIFT_FLAGS": "$(inherited) ",
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.google.firebase.FirebaseAuth"
   },
   "frameworks": "Security",
   "ios": {
@@ -71,7 +72,7 @@
       "< 9.0"
     ],
     "GTMSessionFetcher/Core": [
-      ">= 3.4",
+      ">= 4.0",
       "< 6.0"
     ]
   },
