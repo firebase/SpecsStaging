@@ -21,5 +21,8 @@
     "watchos": "8.0"
   },
   "source_files": "FirebaseMessaging/Interop/*.[hm]",
-  "public_header_files": "FirebaseMessaging/Interop/*.h"
+  "public_header_files": "FirebaseMessaging/Interop/*.h",
+  "pod_target_xcconfig": {
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.google.firebase.FirebaseMessagingInterop"
+  }
 }
