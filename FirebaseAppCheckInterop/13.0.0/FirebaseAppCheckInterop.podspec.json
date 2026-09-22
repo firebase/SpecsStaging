@@ -22,6 +22,9 @@
   },
   "source_files": "FirebaseAppCheck/Interop/**/*.[hm]",
   "public_header_files": "FirebaseAppCheck/Interop/Public/FirebaseAppCheckInterop/*.h",
+  "pod_target_xcconfig": {
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.google.firebase.FirebaseAppCheckInterop"
+  },
   "testspecs": [
     {
       "name": "objc-unit",
