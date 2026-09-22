@@ -25,6 +25,9 @@
   "source_files": [
     "FirebaseSharedSwift/Sources/**/*.swift"
   ],
+  "pod_target_xcconfig": {
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.google.firebase.FirebaseSharedSwift"
+  },
   "testspecs": [
     {
       "name": "unit",
