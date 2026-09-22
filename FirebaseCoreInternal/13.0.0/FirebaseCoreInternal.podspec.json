@@ -33,6 +33,9 @@
       "< 9.0"
     ]
   },
+  "pod_target_xcconfig": {
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.google.firebase.FirebaseCoreInternal"
+  },
   "testspecs": [
     {
       "name": "Unit",
