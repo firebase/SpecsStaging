@@ -26,6 +26,9 @@
   },
   "cocoapods_version": ">= 1.12.0",
   "swift_versions": "5.9",
+  "pod_target_xcconfig": {
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.google.firebase.Firebase"
+  },
   "default_subspecs": "Core",
   "subspecs": [
     {
