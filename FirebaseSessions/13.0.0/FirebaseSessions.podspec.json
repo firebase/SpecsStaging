@@ -51,10 +51,6 @@
     ],
     "nanopb": [
       "~> 3.30910.0"
-    ],
-    "PromisesSwift": [
-      ">= 2.4.1",
-      "< 3.0"
     ]
   },
   "pod_target_xcconfig": {
