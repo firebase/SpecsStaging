@@ -45,5 +45,8 @@
       "~> 13.0.0"
     ]
   },
+  "pod_target_xcconfig": {
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.google.firebase.FirebaseFirestore"
+  },
   "swift_version": "5.9"
 }
