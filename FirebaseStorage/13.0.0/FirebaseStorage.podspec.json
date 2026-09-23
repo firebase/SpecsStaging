@@ -41,13 +41,16 @@
       "~> 13.0.0"
     ],
     "GTMSessionFetcher/Core": [
-      ">= 3.4",
+      ">= 4.0",
       "< 6.0"
     ],
     "GoogleUtilities/Environment": [
       ">= 8.1.3",
       "< 9.0"
     ]
+  },
+  "pod_target_xcconfig": {
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.google.firebase.FirebaseStorage"
   },
   "testspecs": [
     {
