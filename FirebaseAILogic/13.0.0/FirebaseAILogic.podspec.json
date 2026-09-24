@@ -28,16 +28,10 @@
   "swift_versions": "6.0",
   "frameworks": "Foundation",
   "ios": {
-    "frameworks": "UIKit",
-    "pod_target_xcconfig": {
-      "OTHER_SWIFT_FLAGS": "$(inherited) -D IS_FOUNDATION_MODELS_SUPPORTED_PLATFORM"
-    }
+    "frameworks": "UIKit"
   },
   "osx": {
-    "frameworks": "AppKit",
-    "pod_target_xcconfig": {
-      "OTHER_SWIFT_FLAGS": "$(inherited) -D IS_FOUNDATION_MODELS_SUPPORTED_PLATFORM"
-    }
+    "frameworks": "AppKit"
   },
   "tvos": {
     "frameworks": "UIKit"
@@ -86,17 +80,7 @@
       "resources": [
         "FirebaseAI/Tests/Unit/vertexai-sdk-test-data/mock-responses",
         "FirebaseAI/Tests/Unit/Resources/**/*"
-      ],
-      "ios": {
-        "pod_target_xcconfig": {
-          "OTHER_SWIFT_FLAGS": "$(inherited) -D IS_FOUNDATION_MODELS_SUPPORTED_PLATFORM"
-        }
-      },
-      "osx": {
-        "pod_target_xcconfig": {
-          "OTHER_SWIFT_FLAGS": "$(inherited) -D IS_FOUNDATION_MODELS_SUPPORTED_PLATFORM"
-        }
-      }
+      ]
     }
   ],
   "swift_version": "6.0"
