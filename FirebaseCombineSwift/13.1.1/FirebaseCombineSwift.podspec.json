@@ -1,0 +1,128 @@
+{
+  "name": "FirebaseCombineSwift",
+  "version": "13.1.1",
+  "summary": "Swift extensions with Combine support for Firebase",
+  "description": "Firebase Combine is only supported with Swift Package Manager. This podspec is\nfor internal testing only. It should not be published.",
+  "homepage": "https://firebase.google.com",
+  "license": {
+    "type": "Apache-2.0",
+    "file": "LICENSE"
+  },
+  "authors": "Google, Inc.",
+  "source": {
+    "git": "https://github.com/firebase/firebase-ios-sdk.git",
+    "tag": "CocoaPods-13.1.1"
+  },
+  "social_media_url": "https://twitter.com/Firebase",
+  "swift_versions": "5.9",
+  "platforms": {
+    "ios": "15.0",
+    "osx": "11.0",
+    "tvos": "15.0",
+    "watchos": "8.0"
+  },
+  "cocoapods_version": ">= 1.12.0",
+  "prefix_header_file": false,
+  "exclude_files": [
+    "FirebaseCombineSwift/Sources/Core/**/*.swift"
+  ],
+  "source_files": [
+    "FirebaseCombineSwift/Sources/**/*.swift",
+    "FirebaseCombineSwift/Sources/**/*.m"
+  ],
+  "public_header_files": [
+    "FirebaseCombineSwift/Sources/**/*.h"
+  ],
+  "frameworks": "Foundation",
+  "ios": {
+    "frameworks": "UIKit"
+  },
+  "osx": {
+    "frameworks": "AppKit"
+  },
+  "tvos": {
+    "frameworks": "UIKit"
+  },
+  "dependencies": {
+    "FirebaseCore": [
+      "~> 13.1.1"
+    ],
+    "FirebaseAuth": [
+      "~> 13.1.1"
+    ],
+    "FirebaseFunctions": [
+      "~> 13.1.1"
+    ],
+    "FirebaseFirestore": [
+      "~> 13.1.1"
+    ],
+    "FirebaseStorage": [
+      "~> 13.1.1"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}\"",
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.google.firebase.FirebaseCombineSwift"
+  },
+  "testspecs": [
+    {
+      "name": "unit",
+      "test_type": "unit",
+      "scheme": {
+        "code_coverage": true
+      },
+      "platforms": {
+        "ios": "15.0",
+        "osx": "11.0",
+        "tvos": "15.0"
+      },
+      "source_files": [
+        "FirebaseCombineSwift/Tests/Unit/Firestore/*.swift",
+        "FirebaseCombineSwift/Tests/Unit/Storage/*.swift",
+        "FirebaseCombineSwift/Tests/Unit/**/*.h",
+        "FirebaseCombineSwift/Tests/Unit/Credentials.swift",
+        "FirebaseCombineSwift/Tests/Unit/FirebaseApp+Tests.swift",
+        "SharedTestUtilities/FIROptionsMock.[mh]",
+        "SharedTestUtilities/FIRComponentTestUtilities.[mh]"
+      ],
+      "exclude_files": "FirebaseCombineSwift/Tests/Unit/**/*Template.swift",
+      "requires_app_host": true,
+      "pod_target_xcconfig": {
+        "SWIFT_OBJC_BRIDGING_HEADER": "$(PODS_TARGET_SRCROOT)/FirebaseCombineSwift/Tests/Unit/FirebaseCombine-unit-Bridging-Header.h"
+      },
+      "dependencies": {
+        "OCMock": [],
+        "FirebaseAuthTestingSupport": [],
+        "FirebaseFirestoreTestingSupport": []
+      }
+    },
+    {
+      "name": "integration",
+      "test_type": "unit",
+      "scheme": {
+        "code_coverage": true
+      },
+      "platforms": {
+        "ios": "15.0",
+        "osx": "11.0",
+        "tvos": "15.0"
+      },
+      "source_files": [
+        "FirebaseCombineSwift/Tests/Integration/Storage/StorageIntegration.swift",
+        "FirebaseStorage/Tests/Integration/Credentials.swift"
+      ],
+      "requires_app_host": true,
+      "resources": [
+        "FirebaseStorage/Tests/Integration/Resources/1mb.dat",
+        "FirebaseStorage/Tests/Integration/Resources/GoogleService-Info.plist",
+        "FirebaseStorage/Tests/Integration/Resources/HomeImprovement.numbers"
+      ],
+      "dependencies": {
+        "FirebaseAuth": [
+          "~> 13.1.1"
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.9"
+}
