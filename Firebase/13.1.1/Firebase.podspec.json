@@ -41,21 +41,21 @@
       "ios": {
         "dependencies": {
           "FirebaseAnalytics": [
-            "~> 13.1.0"
+            "~> 13.1.1"
           ]
         }
       },
       "osx": {
         "dependencies": {
           "FirebaseAnalytics": [
-            "~> 13.1.0"
+            "~> 13.1.1"
           ]
         }
       },
       "tvos": {
         "dependencies": {
           "FirebaseAnalytics": [
-            "~> 13.1.0"
+            "~> 13.1.1"
           ]
         }
       },
@@ -98,7 +98,7 @@
       "dependencies": {
         "Firebase/CoreOnly": [],
         "FirebaseABTesting": [
-          "~> 13.1.0"
+          "~> 13.1.1"
         ]
       },
       "platforms": {
@@ -116,7 +116,7 @@
       "ios": {
         "dependencies": {
           "FirebaseAppDistribution": [
-            "~> 13.1.0-beta"
+            "~> 13.1.1-beta"
           ]
         }
       },
@@ -129,7 +129,7 @@
       "dependencies": {
         "Firebase/CoreOnly": [],
         "FirebaseAppCheck": [
-          "~> 13.1.0"
+          "~> 13.1.1"
         ]
       },
       "platforms": {
@@ -144,7 +144,7 @@
       "dependencies": {
         "Firebase/CoreOnly": [],
         "FirebaseAuth": [
-          "~> 13.1.0"
+          "~> 13.1.1"
         ]
       },
       "platforms": {
@@ -159,7 +159,7 @@
       "dependencies": {
         "Firebase/CoreOnly": [],
         "FirebaseCrashlytics": [
-          "~> 13.1.0"
+          "~> 13.1.1"
         ]
       },
       "platforms": {
@@ -174,7 +174,7 @@
       "dependencies": {
         "Firebase/CoreOnly": [],
         "FirebaseDatabase": [
-          "~> 13.1.0"
+          "~> 13.1.1"
         ]
       },
       "platforms": {
@@ -203,7 +203,7 @@
       "dependencies": {
         "Firebase/CoreOnly": [],
         "FirebaseFunctions": [
-          "~> 13.1.0"
+          "~> 13.1.1"
         ]
       },
       "platforms": {
@@ -221,14 +221,14 @@
       "ios": {
         "dependencies": {
           "FirebaseInAppMessaging": [
-            "~> 13.1.0-beta"
+            "~> 13.1.1-beta"
           ]
         }
       },
       "tvos": {
         "dependencies": {
           "FirebaseInAppMessaging": [
-            "~> 13.1.0-beta"
+            "~> 13.1.1-beta"
           ]
         }
       },
@@ -242,7 +242,7 @@
       "dependencies": {
         "Firebase/CoreOnly": [],
         "FirebaseInstallations": [
-          "~> 13.1.0"
+          "~> 13.1.1"
         ]
       }
     },
@@ -251,7 +251,7 @@
       "dependencies": {
         "Firebase/CoreOnly": [],
         "FirebaseMessaging": [
-          "~> 13.1.0"
+          "~> 13.1.1"
         ]
       },
       "platforms": {
@@ -269,14 +269,14 @@
       "ios": {
         "dependencies": {
           "FirebasePerformance": [
-            "~> 13.1.0"
+            "~> 13.1.1"
           ]
         }
       },
       "tvos": {
         "dependencies": {
           "FirebasePerformance": [
-            "~> 13.1.0"
+            "~> 13.1.1"
           ]
         }
       },
@@ -290,7 +290,7 @@
       "dependencies": {
         "Firebase/CoreOnly": [],
         "FirebaseRemoteConfig": [
-          "~> 13.1.0"
+          "~> 13.1.1"
         ]
       },
       "platforms": {
@@ -305,7 +305,7 @@
       "dependencies": {
         "Firebase/CoreOnly": [],
         "FirebaseStorage": [
-          "~> 13.1.0"
+          "~> 13.1.1"
         ]
       },
       "platforms": {
