@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "AppCheckCore": [
-      "~> 12.0"
+      "~> 12.1"
     ],
     "FirebaseAppCheckInterop": [
       "~> 13.2.0"
